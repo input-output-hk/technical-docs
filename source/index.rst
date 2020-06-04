@@ -11,5 +11,5 @@ to either
 .. toctree::
    :maxdepth: 2
 
-   cardano-node/docs/index
-   submodule2/docs/index
+   example-repo1/index
+   example-repo2/index
