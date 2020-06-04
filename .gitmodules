@@ -1,4 +1,8 @@
-[submodule "technical-docs"]
-	path = source/technical-docs
-	branch = example-repo1
+[submodule "example-repo2"]
+	path = source/example-repo2
 	url = https://github.com/input-output-hk/technical-docs.git
+	branch = example-repo2
+[submodule "example-repo1"]
+	path = source/example-repo1
+	url = https://github.com/input-output-hk/technical-docs.git
+	branch = example-repo1
