@@ -1,3 +1,6 @@
 [submodule "source/cardano-node"]
 	path = source/cardano-node
 	url = https://github.com/input-output-hk/cardano-node.git
+[submodule "technical-docs"]
+	path = technical-docs
+	url = https://github.com/input-output-hk/technical-docs.git
