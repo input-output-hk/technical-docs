@@ -6,3 +6,7 @@
 	path = source/example-repo1
 	url = https://github.com/input-output-hk/technical-docs.git
 	branch = example-repo1
+[submodule "cardano-node"]
+	path = source/cardano-node
+	url = https://github.com/input-output-hk/cardano-node.git
+	branch = robcohen/docs

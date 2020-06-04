@@ -1,10 +1,9 @@
-.. Stakepool Operators
+.. Cardano Technical Documentation
 
-The Modern Age of Computer Systems Simulation
+Cardano Technical Documentation
 =============================================
 
-SimGrid is a framework to simulate distributed computer systems. It can be used
-to either
+This repo contains the technical documentation for the individual repos for the Cardano project.
 
 
 
@@ -13,3 +12,4 @@ to either
 
    example-repo1/index
    example-repo2/index
+   cardano-node/doc/index
