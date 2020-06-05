@@ -2,3 +2,7 @@
 	path = source/cardano-node
 	url = https://github.com/input-output-hk/cardano-node.git
 	branch = robcohen/docs
+[submodule "adrestia-repo"]
+	path = source/adrestia
+	url = https://github.com/robcohen/adrestia
+	branch = patch-1
