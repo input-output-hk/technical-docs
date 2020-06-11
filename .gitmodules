@@ -1,0 +1,8 @@
+[submodule "source/cardano-node"]
+	path = source/cardano-node
+	url = git@github.com:input-output-hk/cardano-node.git
+	branch = robcohen/docs
+[submodule "source/adrestia"]
+	path = source/adrestia
+	url = git@github.com:input-output-hk/adrestia.git
+	branch = robcohen/docs
