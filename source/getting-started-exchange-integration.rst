@@ -1,6 +1,5 @@
-.. Cardano Component Technical Documentation
+=========================================
+Getting Started with Exchange Integration
+=========================================
 
-Getting Started as a Stakepool Operator
-=============================================
-
-Getting Started as a Stakepool Operator
+Getting Started with Exchange Integration

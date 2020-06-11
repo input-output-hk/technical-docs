@@ -1,7 +1,6 @@
-.. Cardano Component Technical Documentation
-
-Cardano Technical Documentation
-=============================================
+=======================
+Component Documentation
+=======================
 
 This repo contains the technical documentation for the individual repos for the Cardano project.
 
