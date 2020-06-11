@@ -10,10 +10,10 @@ This repo contains the technical documentation for the individual repos for the 
 .. toctree::
    :maxdepth: 3
 
-   getting-started-cardano-node
-   getting-started-stakepool-operator
-   getting-started-exchange-integration
-   cardano-explained/index
-   contribute-cardano
-   component-docs
-   get-support
+   adrestia/doc/index
+   cardano-ledger-specs/doc/index
+   cardano-node/doc/index
+   cardano-rest/doc/index
+   cardano-wallet/doc/index
+   ouroboros-network/doc/index
+   plutus/doc/index
