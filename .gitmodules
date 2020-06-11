@@ -1,0 +1,28 @@
+[submodule "source/cardano-wallet"]
+	path = source/cardano-wallet
+	url = https://github.com/input-output-hk/cardano-wallet.git
+	branch = robcohen/docs
+[submodule "source/cardano-rest"]
+	path = source/cardano-rest
+	url = https://github.com/input-output-hk/cardano-rest.git
+	branch = robcohen/docs
+[submodule "source/cardano-node"]
+	path = source/cardano-node
+	url = https://github.com/input-output-hk/cardano-node.git
+	branch = robcohen/docs
+[submodule "source/cardano-ledger-specs"]
+	path = source/cardano-ledger-specs
+	url = https://github.com/input-output-hk/cardano-ledger-specs.git
+	branch = robcohen/docs
+[submodule "source/adrestia"]
+	path = source/adrestia
+	url = https://github.com/input-output-hk/adrestia.git
+	branch = robcohen/docs
+[submodule "source/ouroboros-network"]
+	path = source/ouroboros-network
+	url = https://github.com/input-output-hk/ouroboros-network.git
+	branch = robcohen/docs
+[submodule "source/plutus"]
+	path = source/plutus
+	url = https://github.com/input-output-hk/plutus.git
+	branch = robcohen/docs
