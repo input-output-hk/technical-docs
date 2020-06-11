@@ -7,6 +7,7 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
 .. toctree::
    :maxdepth: 3
    :titlesonly:
+   :hidden:
 
    getting-started-cardano-node
    getting-started-stakepool-operator
