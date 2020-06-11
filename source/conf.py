@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Cardano for Stakepool Operators'
+project = 'Cardano Component Documentation'
 copyright = '2020, IOHK'
 author = 'IOHK'
 

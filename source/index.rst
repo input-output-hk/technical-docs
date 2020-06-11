@@ -1,4 +1,4 @@
-.. Cardano Technical Documentation
+.. Cardano Component Technical Documentation
 
 Cardano Technical Documentation
 =============================================
