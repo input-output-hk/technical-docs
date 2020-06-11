@@ -1,6 +1,5 @@
-.. Cardano Component Technical Documentation
+=================
+Cardano Explained
+=================
 
-Getting Started as a Stakepool Operator
-=============================================
-
-Getting Started as a Stakepool Operator
+Cardano Explained
