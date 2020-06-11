@@ -13,7 +13,7 @@ This repo contains the technical documentation for the individual repos for the 
    getting-started-cardano-node
    getting-started-stakepool-operator
    getting-started-exchange-integration
-   cardano-explained/index
    contribute-cardano
+   cardano-explained/index
    component-docs
    get-support
