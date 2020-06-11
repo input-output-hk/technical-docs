@@ -1,14 +1,12 @@
-.. Cardano Component Technical Documentation
-
+===============================
 Cardano Technical Documentation
-=============================================
+===============================
 
 This repo contains the technical documentation for the individual repos for the Cardano project.
 
-
-
 .. toctree::
    :maxdepth: 3
+   :titlesonly:
 
    getting-started-cardano-node
    getting-started-stakepool-operator
