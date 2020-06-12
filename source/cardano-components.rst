@@ -7,7 +7,7 @@ This repo contains the technical documentation for the individual repos for the 
 .. toctree::
    :maxdepth: 3
 
-   adrestia/doc/index
+   adrestia/README.rst
    cardano-ledger-specs/doc/index
    cardano-node/doc/index
    cardano-rest/doc/index
