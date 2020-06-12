@@ -26,3 +26,7 @@
 	path = source/plutus
 	url = https://github.com/input-output-hk/plutus.git
 	branch = robcohen/docs
+[submodule "source/cardano-tutorials"]
+	path = source/cardano-tutorials
+	url = https://github.com/input-output-hk/cardano-tutorials.git
+	branch = robcohen/docs
