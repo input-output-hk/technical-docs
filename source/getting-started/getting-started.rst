@@ -1,6 +1,6 @@
-=====================
-Cardano Documentation
-=====================
+===============
+Getting Started
+===============
 
 Cardano is a project that began in 2015 as an effort to change the way cryptocurrencies are designed and developed. The overall focus beyond a particular set of innovations is to provide a more balanced and sustainable ecosystem that better accounts for the needs of its users as well as other systems seeking integration.
 
@@ -9,8 +9,6 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    :titlesonly:
    :hidden:
 
-   getting-started/index
-   contribute-cardano
-   cardano-explained/index
-   component-docs
-   get-support
+   getting-started-cardano-node
+   getting-started-stakepool-operator
+   getting-started-exchange-integration
