@@ -12,6 +12,7 @@ Babel==2.4.0
 certifi==2017.4.17
 chardet==3.0.4
 click==6.7
+sphinxcontrib-mermaid==0.4.0
 CommonMark==0.7.3
 docutils==0.13.1
 future==0.16.0
