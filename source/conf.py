@@ -34,6 +34,7 @@ master_doc = 'index'
 
 extensions = [
     "sphinx_rtd_theme",
+    'sphinxcontrib.mermaid'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
