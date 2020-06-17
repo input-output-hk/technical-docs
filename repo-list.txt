@@ -1,8 +1,7 @@
-https://github.com/input-output-hk/cardano-wallet.git source/cardano-wallet
-https://github.com/input-output-hk/cardano-rest.git source/cardano-rest
-https://github.com/input-output-hk/cardano-node.git source/cardano-node
-https://github.com/input-output-hk/cardano-ledger-specs.git source/cardano-ledger-specs
-https://github.com/input-output-hk/adrestia.git source/adrestia
-https://github.com/input-output-hk/ouroboros-network.git source/ouroboros-network
-https://github.com/input-output-hk/plutus.git source/plutus
-https://github.com/input-output-hk/cardano-tutorials.git source/cardano-tutorials
+https://github.com/input-output-hk/cardano-wallet.git git/cardano-wallet
+https://github.com/input-output-hk/cardano-rest.git git/cardano-rest
+https://github.com/input-output-hk/cardano-node.git git/cardano-node
+https://github.com/input-output-hk/cardano-ledger-specs.git git/cardano-ledger-specs
+https://github.com/input-output-hk/adrestia.git git/adrestia
+https://github.com/input-output-hk/ouroboros-network.git git/ouroboros-network
+https://github.com/input-output-hk/plutus.git git/plutus
