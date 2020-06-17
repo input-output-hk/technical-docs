@@ -40,7 +40,7 @@ jobs:
       - name: Build Sphinx
         uses: ammaraskar/sphinx-action@master
         with:
-          docs-folder: "source/"
+          docs-folder: "./"
       - name: Clone Destination
         run: |
           echo "THIS DIR"
