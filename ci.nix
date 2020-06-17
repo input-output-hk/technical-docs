@@ -5,11 +5,10 @@ builtins.mapAttrs (k: _v:
   in
   pkgs.recurseIntoAttrs {
     # These two attributes will appear in your job for each platform.
-    hello = pkgs.hello;
-    cow-hello = pkgs.runCommand "cow-hello" {
-      buildInputs = [ pkgs.hello pkgs.cowsay ];
+    make-html = pkgs.runCommand "make-html" {
+      buildInputs = [  ];
     } ''
-      hello | cowsay > $out
+      make html
     '';
   }
 ) {
