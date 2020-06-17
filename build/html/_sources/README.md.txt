@@ -1,3 +1,0 @@
-# Cardano SL documentation
-
-Test
