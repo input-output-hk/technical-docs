@@ -25,6 +25,7 @@ jobs:
           cd sphinx-build
           git config --global user.name 'Github-Robot'
           git config --global user.email 'github-robot@users.noreply.github.com'
+          export PATH=$PATH:/home/runner/.local/bin
       - name: Clone Content repositories
         run: |
           git clone --depth=1 -b "pre-build" https://github.com/input-output-hk/technical-docs.git source
@@ -55,7 +56,7 @@ jobs:
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install -U sphinx
-          export PATH=$PATH:/home/runner/.local/bin
+          echo $(pwd)
           make html
           cp -r build ../build
       - name: Clear main branch
