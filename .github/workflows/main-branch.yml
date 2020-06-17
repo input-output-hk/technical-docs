@@ -21,13 +21,27 @@ jobs:
       - name: Clone Content repositories
         run: |
           git clone --depth=1 -b "pre-build" https://github.com/input-output-hk/technical-docs.git source
-          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git source/cardano-wallet
-          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-rest.git source/cardano-rest
-          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-node.git source/cardano-node
-          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-ledger-specs.git source/cardano-ledger-specs
-          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git source/cardano-tutorials
-          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutus.git source/plutus
-          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git source/adrestia
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git git/cardano-wallet
+          mkdir source/cardano-wallet
+          cp -r git/cardano-wallet/docs source/cardano-wallet
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-rest.git git/cardano-rest
+          mkdir source/cardano-rest
+          cp -r git/cardano-rest/docs source/cardano-rest
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-node.git git/cardano-node
+          mkdir source/cardano-node
+          cp -r git/cardano-node/docs source/cardano-node
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-ledger-specs.git git/cardano-ledger-specs
+          mkdir source/cardano-ledger-specs
+          cp -r git/cardano-ledger-specs/docs source/cardano-ledger-specs
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git git/cardano-tutorials
+          mkdir source/cardano-tutorials
+          cp -r git/cardano-tutorials/docs source/cardano-tutorials
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutus.git git/plutus
+          mkdir source/plutus
+          cp -r git/plutus/docs source/plutus
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git git/adrestia
+          mkdir source/adrestia
+          cp -r git/adrestia/docs source/adrestia
 
       - name: Install dependencies
         run: |
