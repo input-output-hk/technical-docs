@@ -11,10 +11,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: sphinx-build
+      - name: Checkout `sphinx-build` branch
+          uses: actions/checkout@v2
+          with:
+            ref: sphinx-build
+            path: sphinx-build
+      - name: Checkout `main` branch
+          uses: actions/checkout@v2
+          with:
+            ref: main
+            path: main
       - run: |
+          cd sphinx-build
           git config --global user.name 'Github-Robot'
           git config --global user.email 'github-robot@users.noreply.github.com'
       - name: Clone Content repositories
@@ -49,12 +57,13 @@ jobs:
           pip install -U sphinx
           export PATH=$PATH:/home/runner/.local/bin
           make html
-      - name: Clone Destination
+          cp -r build ../build
+      - name: Clear main branch
         run: |
-          cp -r ./build/ ../build
-          git stash
-          git checkout main
+          cd ../main
           git rm -rf *
+      - name: Copy 'build' directory
+        run: |
           cp -r ../build/* ./
           git add .
           git commit -am "Update"
