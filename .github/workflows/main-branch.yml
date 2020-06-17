@@ -30,6 +30,7 @@ jobs:
         run: |
           cd sphinx-build
           git clone --depth=1 -b "pre-build" https://github.com/input-output-hk/technical-docs.git source
+          rm source/.git
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git git/cardano-wallet
           mkdir source/cardano-wallet
           cp -r git/cardano-wallet/doc source/cardano-wallet
@@ -49,7 +50,8 @@ jobs:
           cp -r git/plutus/doc source/plutus
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git git/adrestia
           mkdir source/adrestia
-          cp -r git/adrestia/doc source/adrestia
+          cp -r git/adrestia/doc source/adrestia\
+          rm -rf git
       - name: Install dependencies
         run: |
           cd sphinx-build
