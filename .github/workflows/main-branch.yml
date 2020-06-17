@@ -12,15 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout `sphinx-build` branch
-          uses: actions/checkout@v2
-          with:
-            ref: sphinx-build
-            path: sphinx-build
+        uses: actions/checkout@v2
+        with:
+          ref: sphinx-build
+          path: sphinx-build
       - name: Checkout `main` branch
-          uses: actions/checkout@v2
-          with:
-            ref: main
-            path: main
+        uses: actions/checkout@v2
+        with:
+          ref: main
+          path: main
       - run: |
           cd sphinx-build
           git config --global user.name 'Github-Robot'
