@@ -50,7 +50,6 @@ jobs:
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git git/adrestia
           mkdir source/adrestia
           cp -r git/adrestia/doc source/adrestia
-          echo "Success"
       - name: Install dependencies
         run: |
           cd sphinx-build
@@ -61,12 +60,11 @@ jobs:
           pip install -U sphinx
           echo $(pwd)
           make html
-          cp -r build ../build
       - name: Clear main branch
         run: |
           cd main
           git rm -rf *
-          cp -r ../build/html/* ./
+          cp -r ../sphinx-build/* ./
           git add .
           git commit -am "Update"
           git push
