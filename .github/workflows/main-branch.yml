@@ -38,8 +38,9 @@ jobs:
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutus.git source/plutus
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git source/adrestia
       - name: Build Sphinx
-        run: |
-          make html
+        uses: ammaraskar/sphinx-action@master
+        with:
+          docs-folder: "source/"
       - name: Clone Destination
         run: |
           echo "THIS DIR"
