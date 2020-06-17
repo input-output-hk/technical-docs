@@ -28,6 +28,7 @@ jobs:
           export PATH=$PATH:/home/runner/.local/bin
       - name: Clone Content repositories
         run: |
+          ls -la
           git clone --depth=1 -b "pre-build" https://github.com/input-output-hk/technical-docs.git source
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git git/cardano-wallet
           mkdir source/cardano-wallet
