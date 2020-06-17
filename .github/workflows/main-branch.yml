@@ -35,7 +35,6 @@ jobs:
           cp -r git/cardano-ledger-specs/doc source/cardano-ledger-specs
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git git/cardano-tutorials
           mkdir source/cardano-tutorials
-          cp -r git/cardano-tutorials/doc source/cardano-tutorials
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutus.git git/plutus
           mkdir source/plutus
           cp -r git/plutus/doc source/plutus
