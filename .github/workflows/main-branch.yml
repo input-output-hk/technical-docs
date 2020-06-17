@@ -30,7 +30,7 @@ jobs:
         run: |
           cd sphinx-build
           git clone --depth=1 -b "pre-build" https://github.com/input-output-hk/technical-docs.git source
-          rm source/.git
+          rm -rf source/.git
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git git/cardano-wallet
           mkdir source/cardano-wallet
           cp -r git/cardano-wallet/doc source/cardano-wallet
