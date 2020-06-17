@@ -52,11 +52,11 @@ jobs:
           make html
       - name: Clone Destination
         run: |
-          cd ../
-          git clone -b "main" https://github.com/input-output-hk/technical-docs.git main
-          cd main
+          cp -r ./build/ ../build
+          git stash
+          git checkout main
           git rm -rf *
-          cp -r ../technical-docs/build/* ./
+          cp -r ../build/* ./
           git add .
           git commit -am "Update"
           git push
