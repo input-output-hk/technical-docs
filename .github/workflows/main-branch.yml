@@ -22,12 +22,19 @@ jobs:
         run: |
           git clone --depth=1 -b "pre-build" https://github.com/input-output-hk/technical-docs.git source
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git source/cardano-wallet
+          rm -rf -v !("source/cardano-wallet/doc/*"|"source/cardano-wallet/README*") 
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-rest.git source/cardano-rest
+          rm -rf -v !("source/cardano-rest/doc/*"|"source/cardano-rest/README*") 
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-node.git source/cardano-node
+          rm -rf -v !("source/cardano-node/doc/*"|"source/cardano-node/README*")
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-ledger-specs.git source/cardano-ledger-specs
+          rm -rf -v !("source/cardano-ledger-specs/doc/*"|"source/cardano-ledger-specs/README*")
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git source/cardano-tutorials
+          rm -rf -v !("source/cardano-tutorials/doc/*"|"source/cardano-tutorials/README*")
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutus.git source/plutus
+          rm -rf -v !("source/plutus/doc/*"|"source/plutus/README*")
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git source/adrestia
+          rm -rf -v !("source/adrestia/doc/*"|"source/adrestia/README*")
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
