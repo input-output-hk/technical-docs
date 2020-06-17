@@ -52,7 +52,11 @@ jobs:
           make html
       - name: Clone Destination
         run: |
-          echo "THIS DIR"
-          echo $(pwd)
           cd ../
           git clone -b "main" https://github.com/input-output-hk/technical-docs.git dest
+          git rm -r dest/*
+          cp -r technical-docs/build/* dest
+          cd dest
+          git add .
+          git commit -am "Update"
+          git push
