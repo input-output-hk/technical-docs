@@ -50,7 +50,7 @@ jobs:
           cp -r git/plutus/doc source/plutus
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git git/adrestia
           mkdir source/adrestia
-          cp -r git/adrestia/doc source/adrestia\
+          cp -r git/adrestia/doc source/adrestia
           rm -rf git
       - name: Install dependencies
         run: |
