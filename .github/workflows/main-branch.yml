@@ -59,3 +59,4 @@ jobs:
           cp -r ../technical-docs/build/* ./
           git add .
           git commit -am "Update"
+          git push
