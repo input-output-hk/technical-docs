@@ -39,11 +39,9 @@ jobs:
       - name: Build Sphinx
         run: |
           make html
-          git add .
-          git commit -am "New Build"
-          git checkout main
-          git checkout sphinx-build -- src
-          git mv src/* ./
-          git add .
-          git commit -m "New Build"
-          git push
+      - name: Clone Destination
+        run: |
+          echo "THIS DIR"
+          echo $(pwd)
+          cd ../
+          git clone -b "main" https://github.com/input-output-hk/technical-docs.git dest
