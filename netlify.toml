@@ -1,3 +1,0 @@
-[build]
-  publish = "/source/build/html"
-  command = "git clone https://github.com/input-output-hk/technical-docs.git source && cd source && make html"
