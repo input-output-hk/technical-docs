@@ -53,10 +53,9 @@ jobs:
       - name: Clone Destination
         run: |
           cd ../
-          git clone -b "main" https://github.com/input-output-hk/technical-docs.git dest
-          git rm -r dest/*
-          cp -r technical-docs/build/* dest
-          cd dest
+          git clone -b "main" https://github.com/input-output-hk/technical-docs.git main
+          cd main
+          git rm -rf *
+          cp -r ../technical-docs/build/* ./
           git add .
           git commit -am "Update"
-          git push
