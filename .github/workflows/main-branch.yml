@@ -12,11 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: sphinx-build
       - name: Check out sphinx-build
         run: |
           git config --global user.name 'Github-Robot'
           git config --global user.email 'github-robot@users.noreply.github.com'
-          git checkout sphinx-build
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
