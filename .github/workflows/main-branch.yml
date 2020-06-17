@@ -35,7 +35,7 @@ jobs:
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-node.git source/cardano-node
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-ledger-specs.git source/cardano-ledger-specs
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git source/cardano-tutorials
-          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutusgit source/plutus
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutus.git source/plutus
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git source/adrestia
       - name: Build Sphinx
         run: |
