@@ -41,7 +41,7 @@ jobs:
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git git/adrestia
           mkdir source/adrestia
           cp -r git/adrestia/doc source/adrestia
-
+          echo "Success"
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
