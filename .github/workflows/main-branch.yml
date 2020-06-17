@@ -28,7 +28,7 @@ jobs:
           export PATH=$PATH:/home/runner/.local/bin
       - name: Clone Content repositories
         run: |
-          ls -la
+          cd sphinx-build
           git clone --depth=1 -b "pre-build" https://github.com/input-output-hk/technical-docs.git source
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git git/cardano-wallet
           mkdir source/cardano-wallet
@@ -53,6 +53,7 @@ jobs:
           echo "Success"
       - name: Install dependencies
         run: |
+          cd sphinx-build
           python -m pip install --upgrade pip
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
@@ -62,10 +63,8 @@ jobs:
           cp -r build ../build
       - name: Clear main branch
         run: |
-          cd ../main
+          cd main
           git rm -rf *
-      - name: Copy 'build' directory
-        run: |
           cp -r ../build/* ./
           git add .
           git commit -am "Update"
