@@ -66,7 +66,7 @@ jobs:
         run: |
           cd main
           git rm -rf *
-          cp -r ../sphinx-build/* ./
+          cp -r ../sphinx-build/source/* ./
           git add .
           git commit -am "Update"
           git push
