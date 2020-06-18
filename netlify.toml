@@ -1,3 +1,0 @@
-[build]
-  publish = "/build/html"
-  command = "rm -rf source && git clone https://github.com/input-output-hk/technical-docs.git source && make html"
