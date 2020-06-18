@@ -7,10 +7,10 @@ This repo contains the technical documentation for the individual repos for the 
 .. toctree::
    :maxdepth: 3
 
-   adrestia/README.rst
-   cardano-ledger-specs/doc/index
-   cardano-node/doc/index
-   cardano-rest/doc/index
-   cardano-wallet/doc/index
-   ouroboros-network/doc/index
-   plutus/doc/index
+   adrestia/README
+   cardano-ledger-specs/index
+   cardano-node/index
+   cardano-rest/index
+   cardano-wallet/index
+   ouroboros-network/index
+   plutus/index
