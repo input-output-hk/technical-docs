@@ -1,31 +1,31 @@
-Sphinx==1.6.2
-sphinx-intl==0.9.9
-transifex-client==0.12.4
+Sphinx==3.1.1
+sphinx-intl==2.0.1
+transifex-client==0.13.10
 -e git+https://github.com/readthedocs/sphinx_rtd_theme.git#egg=sphinx_rtd_theme
 # recommonmark commit pinned from master branch
 -e git+https://github.com/rtfd/recommonmark.git@c410abb565a3c4ad4de0ce204ab2fa2db8031cf1#egg=recommonmark
 -e git+https://github.com/OpenDataServices/sphinxcontrib-jsonschema.git@e39a92f4238bf022db11e4e88ba92fdaff2b31c9#egg=sphinxcontrib-jsonschema
 -e git+https://github.com/OpenDataServices/sphinxcontrib-opendataservices.git@fab0ff0167d32ec243d42f272e0e50766299c078#egg=sphinxcontrib-opendataservices
 ## The following requirements were added by pip freeze:
-alabaster==0.7.10
-Babel==2.4.0
-certifi==2017.4.17
+alabaster==0.7.12
+Babel==2.8.0
+certifi==2020.4.5.2
 chardet==3.0.4
-click==6.7
+click==7.1.2
 sphinxcontrib-mermaid==0.4.0
-CommonMark==0.7.3
-docutils==0.13.1
-future==0.16.0
-idna==2.5
-imagesize==0.7.1
-Jinja2==2.10.3
+CommonMark==0.9.1
+docutils==0.16
+future==0.18.2
+idna==2.9
+imagesize==1.2.0
+Jinja2==2.11.2
 jsonpointer==2.0
 jsonref==0.2
-MarkupSafe==1.0
-Pygments==2.2.0
-pytz==2017.2
-requests==2.22.0
-six==1.10.0
-snowballstemmer==1.2.1
-sphinxcontrib-websupport==1.0.1
-urllib3==1.25.3
+MarkupSafe==1.1.1
+Pygments==2.6.1
+pytz==2020.1
+requests==2.24.0
+six==1.15.0
+snowballstemmer==2.0.0
+sphinxcontrib-websupport==1.2.2
+urllib3==1.25.9
