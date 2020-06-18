@@ -34,23 +34,30 @@ jobs:
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git git/cardano-wallet
           mkdir source/cardano-wallet
           cp -r git/cardano-wallet/doc source/cardano-wallet
+          cp git/cardano-wallet/*.{md,rst} source/cardano-wallet
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-rest.git git/cardano-rest
           mkdir source/cardano-rest
           cp -r git/cardano-rest/doc source/cardano-rest
+          cp git/cardano-rest/*.{md,rst} source/cardano-rest
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-node.git git/cardano-node
           mkdir source/cardano-node
           cp -r git/cardano-node/doc source/cardano-node
+          cp git/cardano-node/*.{md,rst} source/cardano-node
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-ledger-specs.git git/cardano-ledger-specs
           mkdir source/cardano-ledger-specs
           cp -r git/cardano-ledger-specs/doc source/cardano-ledger-specs
+          cp git/cardano-ledger-specs/*.{md,rst} source/cardano-ledger-specs
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git git/cardano-tutorials
           mkdir source/cardano-tutorials
+          cp -r git/cardano-tutorials/* source/cardano-tutorials
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutus.git git/plutus
           mkdir source/plutus
           cp -r git/plutus/doc source/plutus
+          cp git/plutus/*.{md,rst} source/plutus
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git git/adrestia
           mkdir source/adrestia
           cp -r git/adrestia/doc source/adrestia
+          cp git/adrestia/*.{md,rst} source/adrestia
           rm -rf git
       - name: Install dependencies
         run: |
