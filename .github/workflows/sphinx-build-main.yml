@@ -34,12 +34,11 @@ jobs:
           python-version: 3.8.3
       - name: Install dependencies
         run: |
+                    export PATH=$PATH:/home/runner/.local/bin
+
           cd sphinx-build
           if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
           pip3 install -U sphinx
-      - name: Build Sphinx
-        run: |
-          export PATH=$PATH:/home/runner/.local/bin
           cd sphinx-build
           make html
       - name: Clear main branch
