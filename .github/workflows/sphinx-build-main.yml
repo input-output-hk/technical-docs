@@ -37,7 +37,6 @@ jobs:
           cd sphinx-build
           export PATH=$PATH:/home/runner/.local/bin
           pip3 install -r requirements.txt
-          cd sphinx-build
           make html
       - name: Clear main branch
         run: |
