@@ -2,5 +2,4 @@
   publish = "/build/html"
   command = """rm -rf source && \
   git clone https://github.com/input-output-hk/technical-docs.git source && \
-  git clone -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git source/cardano-tutorials && \
   make html"""
