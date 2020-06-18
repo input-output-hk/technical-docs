@@ -1,0 +1,78 @@
+name: Build Content
+
+on:
+  push:
+    branches:
+      - sphinx-build
+      - pre-build
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout `sphinx-build` branch
+        uses: actions/checkout@v2
+        with:
+          ref: sphinx-build
+          path: sphinx-build
+      - name: Checkout `main` branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+          path: main
+      - run: |
+          cd sphinx-build
+          git config --global user.name 'Github-Robot'
+          git config --global user.email 'github-robot@users.noreply.github.com'
+          export PATH=$PATH:/home/runner/.local/bin
+      - name: Clone Content repositories
+        run: |
+          cd sphinx-build
+          git clone --depth=1 -b "pre-build" https://github.com/input-output-hk/technical-docs.git source
+          rm -rf source/.git
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-wallet.git git/cardano-wallet
+          mkdir source/cardano-wallet
+          cp -r git/cardano-wallet/doc source/cardano-wallet/doc
+          cp git/cardano-wallet/*.{md,rst} source/cardano-wallet 2>/dev/null || :
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-rest.git git/cardano-rest
+          mkdir source/cardano-rest
+          cp -r git/cardano-rest/doc source/cardano-rest/doc
+          cp git/cardano-rest/*.{md,rst} source/cardano-rest 2>/dev/null || :
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-node.git git/cardano-node
+          mkdir source/cardano-node
+          cp -r git/cardano-node/doc source/cardano-node/doc
+          cp git/cardano-node/*.{md,rst} source/cardano-node 2>/dev/null || :
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-ledger-specs.git git/cardano-ledger-specs
+          mkdir source/cardano-ledger-specs
+          cp -r git/cardano-ledger-specs/doc source/cardano-ledger-specs/doc
+          cp git/cardano-ledger-specs/*.{md,rst} source/cardano-ledger-specs 2>/dev/null || :
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git git/cardano-tutorials
+          mkdir source/cardano-tutorials
+          cp -r git/cardano-tutorials/* source/cardano-tutorials
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/plutus.git git/plutus
+          mkdir source/plutus
+          cp -r git/plutus/doc source/plutus/doc
+          cp git/plutus/*.{md,rst} source/plutus 2>/dev/null || :
+          git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/adrestia.git git/adrestia
+          mkdir source/adrestia
+          cp -r git/adrestia/doc source/adrestia/doc
+          cp git/adrestia/*.{md,rst} source/adrestia 2>/dev/null || :
+          rm -rf git
+      - name: Install dependencies
+        run: |
+          cd sphinx-build
+          export PATH=$PATH:/home/runner/.local/bin
+          python -m pip install --upgrade pip
+          pip install flake8 pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install -U sphinx
+          echo $(pwd)
+          make html
+      - name: Clear main branch
+        run: |
+          cd main
+          git rm -rf *
+          cp -r ../sphinx-build/source/* ./
+          git add .
+          git commit -am "Update"
+          git push
