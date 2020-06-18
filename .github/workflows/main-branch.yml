@@ -5,7 +5,6 @@ on:
     branches:
       - sphinx-build
       - pre-build
-      - main
 
 jobs:
   build:
