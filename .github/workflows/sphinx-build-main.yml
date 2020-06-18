@@ -28,6 +28,7 @@ jobs:
         run: |
           cd sphinx-build
           git clone --depth=1 -b "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git source/cardano-tutorials
+          rm -rf source/cardano-tutorials/.git
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
