@@ -1,5 +1,4 @@
-Get genesis, config and topology files; start the node
-======================================================
+## Get genesis, config and topology files; start the node
 
 Starting the node and connecting it to the testnet requires 3 configuration files:
 

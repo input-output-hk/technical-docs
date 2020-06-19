@@ -1,5 +1,4 @@
-Create a simple transaction
-===========================
+# Create a simple transaction
 
 You will need a new __payment address__ (payment2.addr) so that you can send funds to it. First, get a new payment key pair for that:
 

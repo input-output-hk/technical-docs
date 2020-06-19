@@ -1,5 +1,4 @@
-Register a Stake Pool
-=====================
+# Register a Stake Pool
 
 ### Prerequisites
 

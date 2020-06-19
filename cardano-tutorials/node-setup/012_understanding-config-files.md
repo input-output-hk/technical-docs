@@ -1,5 +1,4 @@
-Understanding your configuration files and how to use them
-==========================================================
+# Understanding your configuration files and how to use them:
 
 ## The topology.json file
 
