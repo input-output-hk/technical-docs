@@ -28,10 +28,7 @@ jobs:
       - name: Clone Content repositories
         run: |
           cd sphinx-build
-          git clone --depth=1 \
-          https://github.com/input-output-hk/cardano-tutorials.git \
-          source/cardano-tutorials
-          rm -rf source/cardano-tutorials/.git
+          bash git-clone.sh
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
