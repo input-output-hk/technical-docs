@@ -1,5 +1,4 @@
 [build]
   publish = "/build/html"
-  command = """rm -rf source && \
-  bash git-clone.sh && \
+  command = """bash git-clone.sh && \
   make html"""
