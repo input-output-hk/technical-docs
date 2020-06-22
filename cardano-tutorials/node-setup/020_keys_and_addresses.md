@@ -1,4 +1,5 @@
-# Creating keys and addresses
+Creating keys and addresses
+===========================
 
 We need to create two sets of keys and addresses: One set to control our funds (make and receive payments) and one set to control our stake (to participate in the protocol delegating our stake)
 
@@ -66,9 +67,9 @@ This created the file payment.addr that is already associated with our stake key
 
    and make sure that your node is running.  Then use
 
-       cardano-cli shelley query utxo \
-       --address $(cat payment.addr) \
-       --testnet-magic 42
+    cardano-cli shelley query utxo \
+            --address $(cat payment.addr) \
+            --testnet-magic 42
 
    you should see something like this:
 
