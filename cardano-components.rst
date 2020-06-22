@@ -9,4 +9,4 @@ This repo contains the technical documentation for the individual repos for the 
    :titlesonly:
    :hidden:
 
-   adrestia/doc/index
+   cardano-components/adrestia/doc/index
