@@ -68,6 +68,6 @@ html_context = {
   "github_user": "input-output-hk",
   "github_repo": "technical-docs",
   "github_version": "main",
-  "conf_py_path": "",
+  "conf_py_path": "/",
   "source_suffix": source_suffix,
 }
