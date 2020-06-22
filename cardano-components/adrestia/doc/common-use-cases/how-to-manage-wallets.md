@@ -1,14 +1,11 @@
----
-weight: 2
-title: How to manage wallets
----
+=====================
+How to manage wallets
+=====================
 
-{{<hint warning>}}
-**Difficulty:** beginner
+> **Difficulty:** beginner
 
 **Requires:**
 - 📦 cardano-wallet >= `v2020-04-01`
-{{</hint>}}
 
 Once you created a wallet you can manage it with `cardano-wallet` endpoints. There are several operations available.
 
