@@ -35,7 +35,8 @@ extensions = [
     "sphinx_rtd_theme",
     'sphinxcontrib.mermaid',
     'recommonmark',
-    'sphinx_markdown_tables'
+    'sphinx_markdown_tables',
+    'sphinxemoji.sphinxemoji'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
