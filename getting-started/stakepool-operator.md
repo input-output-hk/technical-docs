@@ -99,9 +99,7 @@ These are important considerations to note about the metadata:
 * for the wallet to display the pool, the following conditions must be met - the registration certificate must refer to the metadata, the metadata must be valid and have the correct content hash, and be available at the URL. It must be possible to get the metadata and validate it. If this process fails, the wallet will not display the pool.
 * if a stake pool operator changes the metadata, they must post a new stake pool registration certificate with the new content hash.
 
-## Metadata proxy servers
-
-[Metadata](source/getting-started/metadata-proxy-servers.md)
+## [Metadata proxy servers](./metadata-proxy-servers.md)
 
 
 ### How to create a stake pool
