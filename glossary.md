@@ -1,4 +1,3 @@
-Cardano Glossary
-################
+# Cardano Glossary
 
 Glossary

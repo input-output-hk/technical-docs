@@ -1,5 +1,5 @@
-Getting Support
-###############
+# Getting Support
+
 
 Your feedback is important because it helps us improve Cardano and the testnet. We have an active Telegram channel and a dedicated [support page](https://iohk.zendesk.com/hc/en-us/categories/900000102203-Shelley-Testnet) to help you with your issues and questions. 
 
