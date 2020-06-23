@@ -14,6 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
+import recommonmark
+from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
@@ -75,3 +77,10 @@ html_context = {
   "conf_py_path": "/",
   "source_suffix": source_suffix,
 }
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'enable_auto_toc_tree': False,
+            'auto_toc_tree_section': 'Contents',
+            }, True)
+    app.add_transform(AutoStructify)
