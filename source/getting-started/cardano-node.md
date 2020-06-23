@@ -2,6 +2,7 @@ Getting Started with Cardano Node
 =================================
 
 **NOTE**
+
 You may want to download more user-friendly wallets for Cardano, such as [Daedalus](https://daedaluswallet.io) or [Yoroi](https://yoroi-wallet.com)
 
 ## Getting Started with Cardano Node:
