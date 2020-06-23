@@ -12,6 +12,6 @@ while IFS=" " read -r name repo remainder; do
     fi
     mkdir -p "source/cardano-components/$name"
     mv "git/$name/doc" "source/cardano-components/$name/"
-    mv "git/$name/README.md" "source/cardano-components/$name/"
+    mv "git/$name/README.rst" "source/cardano-components/$name/"
     rm -rf git
 done < repo-list.txt
