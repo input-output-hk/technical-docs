@@ -4,7 +4,7 @@
 git clone --depth=1 --branch "robcohen/docs" https://github.com/input-output-hk/cardano-tutorials.git source/cardano-tutorials
 rm -rf source/cardano-tutorials/.git
 
-while IFS=" " read -r name repo; do
+while read -r name repo; do
     git clone --depth=1 --branch "robcohen/docs" "$repo" "git/$name"
     if [[ -d "source/cardano-components/$name" ]]
     then
