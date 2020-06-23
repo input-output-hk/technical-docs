@@ -16,13 +16,14 @@ This middleware stores blockchain data fetched from cardano-node in an intermedi
 * [cardano-wallet](https://github.com/input-output-hk/cardano-wallet) - This API is recommended for 3rd party wallets and exchanges who do not want to manage UTxOs for transactions themselves. Use it to send and receive payments from hierarchical deterministic wallets on the Cardano blockchain via HTTP REST or a command-line interface.
 * [cardano-rest](https://github.com/input-output-hk/cardano-rest) - is made of two HTTP APIs that are used to retrieve transactions, addresses, and time periods (epochs and slots) from the cardano-db-sync component and submit an already serialized transaction to the network using cardano-explorer-api & cardano-submit-api respectively. The cardano-submit-api uses the same API as the cardano-sl:explorer to ease migration from already integrated clients. New integration should, however, look into cardano-graphql.
 * [cardano-graphql](https://github.com/input-output-hk/cardano-graphql) - HTTP GraphQL API for Cardano. A more flexible alternative for blockchain exploration than cardano-rest.
-* [Adrestia libraries](https://github.com/input-output-hk/adrestia) - Recommended for larger exchanges who wish to construct their own wallet scheme and manage UTXOs themselves. This consists of the following:
+* [Adrestia libraries](https://github.com/input-output-hk/adrestia) - Recommended for larger exchanges who wish to construct their own wallet scheme and manage UTXOs themselves. This consists of the following:  
 
-* cardano-coin-selection
-* cardano-addresses
-* cardano-transactions
-* cardano-serialization-lib
-* bech32.  
+
+    * cardano-coin-selection
+    * cardano-addresses
+    * cardano-transactions
+    * cardano-serialization-lib
+    * bech32.  
 
 The only currently available language target is Haskell, although support for JavaScript is being worked on and should be available soon.
 
