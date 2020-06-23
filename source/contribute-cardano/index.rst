@@ -8,6 +8,6 @@ Contribute to Cardano Community
    :maxdepth: 3
    :titlesonly:
 
-   contribute-cardano/providing-feedback
-   contribute-cardano/ambassadors-program
-   contribute-cardano/community-generated-content
+   providing-feedback
+   ambassadors-program
+   community-generated-content
