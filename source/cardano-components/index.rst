@@ -9,3 +9,4 @@ This section contains repository documentation for each component of Cardano.
    :titlesonly:
 
    adrestia/doc/index
+   cardano-node/doc/index
