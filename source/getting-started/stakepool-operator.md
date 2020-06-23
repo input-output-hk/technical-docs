@@ -102,10 +102,6 @@ These are important considerations to note about the metadata:
 ## [Metadata proxy servers](./metadata-proxy-servers.md)
 
 
-### How to create a stake pool
-
-To learn how to setup your own stake pool, please follow the [Tutorials](../cardano-tutorials/readme)
-
 ```eval_rst
 .. toctree::
    :maxdepth: 3
@@ -113,4 +109,7 @@ To learn how to setup your own stake pool, please follow the [Tutorials](../card
 
    metadata-proxy-servers
 
-``
+```
+## How to create a stake pool
+
+To learn how to setup your own stake pool, please follow the [Tutorials](../cardano-tutorials/readme)
