@@ -11,6 +11,7 @@ certifi==2020.4.5.2
 chardet==3.0.4
 click==7.1.2
 sphinxcontrib-mermaid==0.4.0
+sphinx_markdown_tables==0.0.15
 CommonMark==0.9.1
 docutils==0.16
 future==0.18.2
