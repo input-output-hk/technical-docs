@@ -9,5 +9,5 @@ Learn About Cardano
    what-is-a-cardano-node
    what-is-a-stakepool
    understanding-the-delegation-mechanism
-   pledging-and-rewards
+   understanding-pledging-and-rewards
    further-resources
