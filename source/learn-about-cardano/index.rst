@@ -10,4 +10,4 @@ Learn About Cardano
    what-is-a-stakepool
    understanding-the-delegation-mechanism
    understanding-pledging-and-rewards
-   further-resources
+   further-reading
