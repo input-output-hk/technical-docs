@@ -2,11 +2,10 @@
 Cardano Components
 ==================
 
-This repo contains the technical documentation for the individual repos for the Cardano project.
+This section contains repository documentation for each component of Cardano.
 
 .. toctree::
    :maxdepth: 3
    :titlesonly:
-   :hidden:
 
    cardano-components/adrestia/doc/index

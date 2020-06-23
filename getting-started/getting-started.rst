@@ -1,5 +1,0 @@
-===========
-Get Support
-===========
-
-Get Support
