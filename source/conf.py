@@ -78,10 +78,7 @@ html_context = {
 
 def setup(app):
     app.add_config_value('recommonmark_config', {
-        'enable_auto_toc_tree': False
-        'enable_math': False,
-        'enable_inline_math': False,
-        'enable_eval_rst': True,
-        'enable_auto_doc_ref': True,
-    }, True)
+            'enable_auto_toc_tree': False,
+            'auto_toc_tree_section': 'Contents',
+            }, True)
     app.add_transform(AutoStructify)
