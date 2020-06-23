@@ -3,7 +3,7 @@ Getting Started
 ===============
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :titlesonly:
 
    cardano-node

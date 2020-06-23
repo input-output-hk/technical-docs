@@ -1,4 +1,4 @@
-Getting Started with Stakepool Operations
+Getting Started with Stake pool Operations
 =========================================
 
 Getting started as stake pool operator
@@ -9,7 +9,7 @@ We recommend that you have one or more relay nodes, in addition to your Shelley 
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 0
    :titlesonly:
 
    prerequisites
