@@ -9,9 +9,9 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    :titlesonly:
    :hidden:
 
-   getting-started/getting-started
-   cardano-explained/index
-   cardano-components
+   getting-started/index
+   cardano-concepts/index
+   cardano-components/index
    cardano-tutorials/README
    contribute-cardano
    get-support
