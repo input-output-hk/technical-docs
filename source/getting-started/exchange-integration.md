@@ -5,10 +5,7 @@ Exchanges and third-party wallets interested in or currently listing ada should 
 
 Old components like **cardano-sl:node**, **cardano-sl:explorer**, **cardano-sl:wallet** will not be supported after the Shelley Hard-fork.
 
-Only the following components are Shelley compliant and will be supported during and after the Shelley hard-fork.
-
-
-New components support both Byron and Shelley eras.
+Only the following components are Shelley compliant and will be supported during and after the Shelley hard-fork and support both Byron and Shelley eras.
 
 * [cardano-node](https://github.com/input-output-hk/cardano-node) - the latest cardano-node, which will support Ouroboros Praos.
 * [cardano-db-sync](https://github.com/input-output-hk/cardano-db-sync) - a necessary middleware to power both cardano-rest and cardano-graphql.
