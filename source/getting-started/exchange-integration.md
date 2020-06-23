@@ -17,6 +17,7 @@ This middleware stores blockchain data fetched from cardano-node in an intermedi
 * [cardano-rest](https://github.com/input-output-hk/cardano-rest) - is made of two HTTP APIs that are used to retrieve transactions, addresses, and time periods (epochs and slots) from the cardano-db-sync component and submit an already serialized transaction to the network using cardano-explorer-api & cardano-submit-api respectively. The cardano-submit-api uses the same API as the cardano-sl:explorer to ease migration from already integrated clients. New integration should, however, look into cardano-graphql.
 * [cardano-graphql](https://github.com/input-output-hk/cardano-graphql) - HTTP GraphQL API for Cardano. A more flexible alternative for blockchain exploration than cardano-rest.
 * [Adrestia libraries](https://github.com/input-output-hk/adrestia) - Recommended for larger exchanges who wish to construct their own wallet scheme and manage UTXOs themselves. This consists of the following:  
+
     * cardano-coin-selection
     * cardano-addresses
     * cardano-transactions
