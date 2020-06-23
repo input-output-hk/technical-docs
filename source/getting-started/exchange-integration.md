@@ -19,11 +19,11 @@ This middleware stores blockchain data fetched from cardano-node in an intermedi
 * [Adrestia libraries](https://github.com/input-output-hk/adrestia) - Recommended for larger exchanges who wish to construct their own wallet scheme and manage UTXOs themselves. This consists of the following:  
 <br>
 
-    * cardano-coin-selection
-    * cardano-addresses
-    * cardano-transactions
-    * cardano-serialization-lib
-    * bech32.  
+  * cardano-coin-selection
+  * cardano-addresses
+  * cardano-transactions
+  * cardano-serialization-lib
+  * bech32.  
 
 The only currently available language target is Haskell, although support for JavaScript is being worked on and should be available soon.
 
