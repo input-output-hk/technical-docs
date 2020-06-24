@@ -8,7 +8,14 @@ Adrestia is a collection of products which makes it easier to integrate with Car
    :maxdepth: 3
    :titlesonly:
 
-   adrestia/
+   ../cardano-components/adrestia/doc/README
+   architecture
+   installation
+   common-use-cases/index
+   key-concepts/index
+   migrating-from-sl
+   api-references
+   faq
 ```
 
 More text test
