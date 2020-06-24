@@ -10,10 +10,10 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    :titlesonly:
    :hidden:
 
-   getting-started/cardano-node
-   getting-started/stakepool-operator
-   getting-started/exchange-integration
-   getting-started/developers
+   Cardano Node Quickstart <getting-started/cardano-node>
+   Stakepool Operators <getting-started/stakepool-operator>
+   Exchange Integration <getting-started/exchange-integration>
+   Developers <getting-started/developers>
 
 .. toctree::
    :maxdepth: 3
