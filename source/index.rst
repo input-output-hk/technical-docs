@@ -15,7 +15,7 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    getting-started/exchange-integration
    getting-started/developers
 
-   .. toctree::
+.. toctree::
    :maxdepth: 3
    :caption: Explore Cardano
    :titlesonly:
