@@ -6,9 +6,9 @@ Adrestia is a collection of products which makes it easier to integrate with Car
 ```eval_rst
 .. toctree::
    :maxdepth: 1
-   :titlesonly:
+   :glob:
 
-   cardano-components/index.rst
+   adrestia/doc/index
 ```
 
 More text test
