@@ -7,7 +7,7 @@ Old components like **cardano-sl:node**, **cardano-sl:explorer**, **cardano-sl:w
 
 Only the following components are Shelley compliant and will be supported during and after the Shelley hard-fork and support both Byron and Shelley eras.
 
-* [cardano-node](https://github.com/input-output-hk/cardano-node) - the latest cardano-node, which will support Ouroboros Praos.
+* [cardano-node](https://github.com/input-output-hk/cardano-node) - the latest cardano-node, which supports Ouroboros Praos.
 * [cardano-db-sync](https://github.com/input-output-hk/cardano-db-sync) - a necessary middleware to power both cardano-rest and cardano-graphql.
 This middleware stores blockchain data fetched from cardano-node in an intermediate database to enable higher-level interfaces for blockchain exploration.
 * [cardano-wallet](https://github.com/input-output-hk/cardano-wallet) - This API is recommended for 3rd party wallets and exchanges who do not want to manage UTxOs for transactions themselves. Use it to send and receive payments from hierarchical deterministic wallets on the Cardano blockchain via HTTP REST or a command-line interface.
