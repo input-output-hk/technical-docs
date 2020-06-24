@@ -8,7 +8,7 @@ Adrestia is a collection of products which makes it easier to integrate with Car
    :maxdepth: 3
    :titlesonly:
 
-   adrestia/doc/index
+   adrestia/
 ```
 
-More text test 
+More text test
