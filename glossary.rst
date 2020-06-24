@@ -1,4 +1,17 @@
-# Cardano Glossary
+Cardano Glossary
+################
+
+.. list-table:: Cardano Glossary
+   :header-rows: 1
+
+   * - Term
+     - Definition
+   * - Albatross
+     - 2.99
+   * - Crunchy Frog
+     - 1.49
+   * - Gannet Ripple
+     - 1.99
 
 |Term|Definition|
 | --- | --- |
