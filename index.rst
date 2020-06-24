@@ -24,7 +24,17 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    learn-about-cardano/index
    cardano-components/index
    cardano-tutorials/README
-   contribute-cardano/index
    glossary
    release-notes
+
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Supporting Cardano
+   :titlesonly:
+   :hidden:
+
+   contribute-cardano/providing-feedback
+   contribute-cardano/ambassadors-program
+   contribute-cardano/community-generated-content
    get-support
