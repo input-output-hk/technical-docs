@@ -1,7 +1,7 @@
 Getting Started with Exchange Integration
 =========================================
 
-Exchanges and third-party wallets interested in or currently listing ada should move to a Shelley-supported version of Cardano.
+Exchanges and interested in or currently listing ada should move to a Shelley-supported version of Cardano.
 
 Old components like **cardano-sl:node**, **cardano-sl:explorer**, **cardano-sl:wallet** will not be supported after the Shelley Hard-fork.
 
