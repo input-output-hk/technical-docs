@@ -6,6 +6,7 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
 
 .. toctree::
    :maxdepth: 3
+   :caption: Getting Started
    :titlesonly:
    :hidden:
 
@@ -13,6 +14,13 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    getting-started/stakepool-operator
    getting-started/exchange-integration
    getting-started/developers
+
+   .. toctree::
+   :maxdepth: 3
+   :caption: Explore Cardano
+   :titlesonly:
+   :hidden:
+
    learn-about-cardano/index
    cardano-components/index
    cardano-tutorials/README
