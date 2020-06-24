@@ -1,4 +1,8 @@
 Getting Started for Developers
-=================================================
+==============================
 
-Developers
+.. toctree::
+   :maxdepth: 3
+   :titlesonly:
+
+   adrestia/doc/index
