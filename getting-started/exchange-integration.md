@@ -15,11 +15,11 @@ This middleware stores blockchain data fetched from cardano-node in an intermedi
 * [cardano-graphql](https://github.com/input-output-hk/cardano-graphql) - HTTP GraphQL API for Cardano. A more flexible alternative for blockchain exploration than cardano-rest.
 * [Adrestia libraries](https://github.com/input-output-hk/adrestia) - Recommended for larger exchanges who wish to construct their own wallet scheme and manage UTXOs themselves. This consists of the following:  
 
-    > * cardano-coin-selection
-    > * cardano-addresses
-    > * cardano-transactions
-    > * cardano-serialization-lib
-    > * bech32.  
+    > * [cardano-coin-selection](https://github.com/input-output-hk/cardano-coin-selection)
+    > * [cardano-addresses](https://github.com/input-output-hk/cardano-addresses)
+    > * [cardano-transactions](https://github.com/input-output-hk/cardano-transactions)
+    > * [cardano-serialization-lib](https://github.com/Emurgo/cardano-serialization-lib)
+    > * [bech32](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki)  
 
 The only currently available language target is Haskell, although support for JavaScript is being worked on and should be available soon.
 
