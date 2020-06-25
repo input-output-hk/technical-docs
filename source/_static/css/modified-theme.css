@@ -2,8 +2,7 @@
 
 body, input, textarea {
     font-family: Open Sans, sans-serif;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
+    font-size: .8rem;
     font-weight: 200;
     line-height: 1.7;
 }
