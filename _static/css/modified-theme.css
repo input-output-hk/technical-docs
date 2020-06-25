@@ -1,6 +1,19 @@
 @import 'theme.css';       /* for the Read the Docs theme */
 
-body{
-    font-family: "Open Sans", sans-serif;
+body, input, textarea {
+    font-family: Open Sans, sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: 200;
+    line-height: 1.7;
 }
 
+.rst-content .toctree-wrapper > p.caption, h1, h2, h3, h4, h5, h6, legend {
+    font-family: Open Sans, sans-serif;
+    font-size: 2.7648rem;
+    letter-spacing: 0.17rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 2.75rem 0px 1.05rem;
+    text-transform: none;
+}
