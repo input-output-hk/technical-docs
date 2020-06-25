@@ -2,7 +2,7 @@
 
 body, input, textarea {
     font-family: Open Sans, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     letter-spacing: 0.1rem;
     font-weight: 200;
     line-height: 1.7;
@@ -10,7 +10,7 @@ body, input, textarea {
 
 .rst-content .toctree-wrapper > p.caption, h1, h2, h3, h4, h5, h6, legend {
     font-family: Open Sans, sans-serif;
-    font-size: 2.7648rem;
+    font-size: 2rem;
     letter-spacing: 0.17rem;
     font-weight: 300;
     line-height: 1.4;
