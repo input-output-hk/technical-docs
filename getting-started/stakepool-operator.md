@@ -1,8 +1,6 @@
 Getting Started with Stake pool Operations
 =========================================
 
-Getting started as stake pool operator
-
 ## Recommended setup
 
 We recommend that you have one or more relay nodes, in addition to your Shelley block-producing node. You can check here for network configuration details, as well as genesis and topology files.
