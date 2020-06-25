@@ -9,4 +9,4 @@ Getting Started
    cardano-node
    stakepool-operator
    exchange-integration
-   3rd-party-wallet-integration
+   developers

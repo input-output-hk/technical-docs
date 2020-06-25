@@ -1,3 +1,0 @@
-# Cardano Glossary
-
-Glossary

@@ -1,16 +1,13 @@
 Getting Started with Exchange Integration
 =========================================
 
-Exchanges and third-party wallets interested in or currently listing ada should move to a Shelley-supported version of Cardano.
+Exchanges and interested in or currently listing ada should move to a Shelley-supported version of Cardano.
 
 Old components like **cardano-sl:node**, **cardano-sl:explorer**, **cardano-sl:wallet** will not be supported after the Shelley Hard-fork.
 
-Only the following components are Shelley compliant and will be supported during and after the Shelley hard-fork.
+Only the following components are Shelley compliant and will be supported during and after the Shelley hard-fork and support both Byron and Shelley eras.
 
-
-New components support both Byron and Shelley eras.
-
-* [cardano-node](https://github.com/input-output-hk/cardano-node) - the latest cardano-node, which will support Ouroboros Praos.
+* [cardano-node](https://github.com/input-output-hk/cardano-node) - the latest cardano-node, which supports Ouroboros Praos.
 * [cardano-db-sync](https://github.com/input-output-hk/cardano-db-sync) - a necessary middleware to power both cardano-rest and cardano-graphql.
 This middleware stores blockchain data fetched from cardano-node in an intermediate database to enable higher-level interfaces for blockchain exploration.
 * [cardano-wallet](https://github.com/input-output-hk/cardano-wallet) - This API is recommended for 3rd party wallets and exchanges who do not want to manage UTxOs for transactions themselves. Use it to send and receive payments from hierarchical deterministic wallets on the Cardano blockchain via HTTP REST or a command-line interface.
@@ -18,12 +15,11 @@ This middleware stores blockchain data fetched from cardano-node in an intermedi
 * [cardano-graphql](https://github.com/input-output-hk/cardano-graphql) - HTTP GraphQL API for Cardano. A more flexible alternative for blockchain exploration than cardano-rest.
 * [Adrestia libraries](https://github.com/input-output-hk/adrestia) - Recommended for larger exchanges who wish to construct their own wallet scheme and manage UTXOs themselves. This consists of the following:  
 
-  
-    * cardano-coin-selection
-    * cardano-addresses
-    * cardano-transactions
-    * cardano-serialization-lib
-    * bech32.  
+    > * [cardano-coin-selection](https://github.com/input-output-hk/cardano-coin-selection)
+    > * [cardano-addresses](https://github.com/input-output-hk/cardano-addresses)
+    > * [cardano-transactions](https://github.com/input-output-hk/cardano-transactions)
+    > * [cardano-serialization-lib](https://github.com/Emurgo/cardano-serialization-lib)
+    > * [bech32](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki)  
 
 The only currently available language target is Haskell, although support for JavaScript is being worked on and should be available soon.
 
