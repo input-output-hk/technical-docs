@@ -10,7 +10,6 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    :titlesonly:
    :hidden:
 
-   Cardano Node Quickstart <getting-started/cardano-node>
    Stakepool Operators <getting-started/stakepool-operator>
    Exchange Integration <getting-started/exchange-integration>
    Developers <getting-started/developers>
@@ -22,7 +21,6 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    :hidden:
 
    learn-about-cardano/index
-   cardano-components/index
    cardano-tutorials/README
    glossary
    release-notes
