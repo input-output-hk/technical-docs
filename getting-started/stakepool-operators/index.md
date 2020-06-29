@@ -1,4 +1,4 @@
-Getting Started with Stake pool Operations
+Getting Started with Stakepool Operations
 =========================================
 
 ## Recommended setup
