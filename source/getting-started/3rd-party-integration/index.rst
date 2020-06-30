@@ -1,7 +1,7 @@
 Getting Started with 3rd-party Integration
 ==========================================
 
-:: note::
+.. note::
    Exchanges interested in or currently listing ada should move to a Shelley-supported version of Cardano.
 
 Old components like **cardano-sl:node**, **cardano-sl:explorer**,
@@ -50,8 +50,8 @@ and Shelley eras.
 The only currently available language target is Haskell, although
 support for JavaScript is being worked on and should be available soon.
 
-Note: Adrestia’s components and their respective repositories are also
-listed on `Github`_.
+.. warning::
+   Adrestia’s components and their respective repositories are also listed on `Github`_.
 
 .. _cardano-node: https://github.com/input-output-hk/cardano-node
 .. _cardano-db-sync: https://github.com/input-output-hk/cardano-db-sync
