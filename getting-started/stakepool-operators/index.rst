@@ -7,8 +7,19 @@ Stake pools use the Cardano node to validate how the pool interacts with the net
 
 Stake pools are a key part of a decentralized Cardano, supporting the mechanisms that ensure the long-term health and liveness of the network. By running a stake pool, stake pool operators enable other users to participate in the protocol and gain rewards without needing to continuously run an online node.
 
-**Recommended setup**
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
 
+   prerequisites
+   hardware-requirements
+   keys
+   operational-certificate
+   metadada
+   public-stakepools
+   metadata-proxy-servers
+
+**Recommended setup**
 
 As stake pool operator, you will have two types of nodes, core nodes and relay nodes. Each core node must be accompanied by one or more relay nodes.
 
@@ -22,17 +33,6 @@ Each node should run on a dedicated server, and the core node server's firewall 
 
 .. image:: network1.png
 
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   prerequisites
-   hardware-requirements
-   keys
-   operational-certificate
-   metadada
-   public-stakepools
-   metadata-proxy-servers
 
 **How to create a stake pool**
 
