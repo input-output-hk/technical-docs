@@ -36,6 +36,6 @@ Each node should run on a dedicated server, and the core node server's firewall 
 
 **How to create a stake pool**
 
-To learn how to setup your own stake pool, please follow the `Cardano Tutorials `_
+To learn how to setup your own stake pool, please follow the `Cardano Tutorials`_
 
 .. _Cardano Tutorials: ../cardano-tutorials/readme
