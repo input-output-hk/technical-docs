@@ -47,7 +47,7 @@ Cardano is developing a smart contract platform which seeks to deliver more adva
 
 .. toctree::
    :maxdepth: 3
-   :caption: Supporting Cardano
+   :caption: Cardano Community
    :titlesonly:
    :hidden:
 
