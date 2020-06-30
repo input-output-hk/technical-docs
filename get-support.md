@@ -1,8 +1,8 @@
 # Getting Support
 
-Your feedback is important because it helps us improve Cardano and the testnet. We have an active Telegram channel and a dedicated [support page](https://iohk.zendesk.com/hc/en-us/categories/900000102203-Shelley-Testnet) to help you with your issues and questions. 
+Your feedback is important because it helps us improve Cardano. We have an active Telegram channel and a dedicated [support page](https://iohk.zendesk.com/) to help you with your issues and questions. 
 
-We are also creating documentation with the support of our pioneers, a small group of stake pool operators. As that documentation is completed, we will add it to the sections on this website. Please check back regularly, or you can access draft documentation [here](https://github.com/cardano-foundation/testnets-cardano-org).
+We are also creating documentation with the support of our pioneers, a small group of stake pool operators. As that documentation is completed, we will add it to the sections on this website. Please remember to check back regularly.
 
 ## Telegram Channel: Cardano Developers
 
