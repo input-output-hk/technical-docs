@@ -34,6 +34,6 @@ Each node should run on a dedicated server, and the block-producing node's serve
    public-stakepools
    metadata-proxy-servers
 
-**How to create a stake pool:**
+**How to create a stake pool**
 
 To learn how to setup your own stake pool, please follow the Cardano tutorials (add link)
