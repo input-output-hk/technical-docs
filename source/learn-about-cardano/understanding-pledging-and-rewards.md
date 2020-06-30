@@ -11,6 +11,7 @@ During each epoch, rewards are distributed amongst all stakeholders who have del
 
 The following formula outlines how the rewards mechanism works. The available rewards amount, transaction fees, plus monetary expansion, is denoted by R.
 First, the share of all available rewards that a specific pool can receive is determined, as follows:
+
 ![pledge formula](pledge_formula.png)
 
 These elements are defined as follows:
