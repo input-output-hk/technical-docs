@@ -20,6 +20,7 @@ To be clear: Both types of nodes run exactly the same program, cardano-node. The
 
 Each node should run on a dedicated server, and the core node server's firewall should be configured to only allow incoming connections from its relays.
 
+.. image:: network1.png
 
 .. toctree::
    :maxdepth: 1
