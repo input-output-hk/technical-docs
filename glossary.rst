@@ -2,7 +2,7 @@ Cardano Glossary
 ################
 
 .. list-table:: Cardano Glossary
-   :widths: 20 80
+   :widths: 15 85
    :header-rows: 1
 
    * - Term
@@ -24,7 +24,7 @@ Cardano Glossary
    * - DApp
      - decentralized application.
    * - delegation
-     - the process by which ada owners can participate in the network and earn rewards by delegating the stake associated with their ada holdings to a stake pool. 
+     - the process by which ada owners can participate in the network and earn rewards by delegating the stake associated with their ada holdings to a stake pool.
    * - epoch
      - a defined group of slots that constitute a period of time.
    * - faucet
@@ -42,7 +42,7 @@ Cardano Glossary
    * - reward
      - an amount contained in each new block that is paid out to the stakeholder by the network.
    * - Shelley
-     - second phase of Cardano development in which network decentralization will be delivered. 
+     - second phase of Cardano development in which network decentralization will be delivered.
    * - slot
      - a fixed period of time within an epoch. Each epoch of time is divided into numbered slots. Slots that contain transactions are called blocks.
    * - slot leader
