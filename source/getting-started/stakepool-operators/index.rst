@@ -4,7 +4,7 @@ Getting Started with Stakepool Operations
 Stake pools use the Cardano node to validate how the pool interacts with the network, sends transactions, creates blocks, and so on.
 
 Operating a stake pool
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 Stake pools are a key part of a decentralized Cardano, supporting the mechanisms that ensure the long-term health and liveness of the network. By running a stake pool, stake pool operators enable other users to participate in the protocol and gain rewards without needing to continuously run an online node.
 
 Recommended setup
