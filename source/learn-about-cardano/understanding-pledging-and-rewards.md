@@ -14,27 +14,27 @@ First, the share of all available rewards that a specific pool can receive is de
 ![pledge formula](https://github.com/cardano-foundation/testnets-cardano-org/blob/staging/resources/content/articles/article-images/pledge_formula.png)
 
 These elements are defined as follows:
-* <pre>R</pre> - total available rewards for this epoch
-* <pre>a<sub>0</sub></pre> - pledge influence factor (can be between 0 and infinity)
-* <pre>z<sub>0</sub></pre> - relative pool saturation size, i.e. 0.5% for a number of desired pool <pre>k</pre>=200
-* <pre>σ</pre> - stake delegated to the pool (including stake pledged by the owners and stake delegated by others)
-* <pre>σ’</pre> = <pre>min(σ, z<sub>0</sub>)</pre> - as <pre>σ</pre>, but capped at <pre>z<sub>0</sub></pre>
-* <pre>s</pre> - stake pledged by the owners
-* <pre>s’</pre> = <pre>min(s, z<sub>0</sub>)</pre> - as <pre>s</pre>, but capped at <pre>z<sub>0</sub></pre>
+* R - total available rewards for this epoch
+* a<sub>0</sub> - pledge influence factor (can be between 0 and infinity)
+* z<sub>0</sub> - relative pool saturation size, i.e. 0.5% for a number of desired pool k=200
+* σ - stake delegated to the pool (including stake pledged by the owners and stake delegated by others)
+* σ’ = min(σ, z<sub>0</sub>) - as σ, but capped at z<sub>0</sub>
+* s - stake pledged by the owners
+* s’ = min(s, z<sub>0</sub>) - as s, but capped at z<sub>0</sub>
 
-Note that <pre>z<sub>0</sub></pre>, <pre>σ</pre> and <pre>s</pre> are all relative, so they are fractions of the total supply, as they all lie between zero and one.
+Note that z<sub>0</sub>, σ and s are all relative, so they are fractions of the total supply, as they all lie between zero and one.
 
 Two important considerations are:
-1. Rewards increase with <pre>σ</pre>, but stop increasing once <pre>σ</pre> reaches <pre>z<sub>0</sub></pre>, that is. once the pool becomes saturated.
-2. If <pre>a<sub>0</sub></pre>, (the pledge influence,) is zero, this formula simply becomes <pre>R·σ’</pre>,
-   so it is proportional to pool stake, up to the point of saturation. For larger values of <pre>a<sub>0</sub></pre>, the pledge <pre>s</pre> becomes more important.
+1. Rewards increase with σ, but stop increasing once σ reaches z<sub>0</sub>, that is. once the pool becomes saturated.
+2. If a<sub>0</sub>, (the pledge influence,) is zero, this formula simply becomes R·σ’,
+   so it is proportional to pool stake, up to the point of saturation. For larger values of a<sub>0</sub>, the pledge s becomes more important.
 
 Remember that the pledge is declared during pool registration, (alongside the cost and margin values),
 and has to be honored by the pool owners who are delegating to the pool:
 If they collectively delegate less than the declared pledge, pool rewards for that epoch will be zero. Note that the pool will be public, if its operator margin is set to less than 100%.
 
 The rewards that are produced by this formula are now adjusted by pool performance:
-We multiply by <pre>β/σ</pre>, where <pre>β</pre> is the fraction of all blocks produced by the pool during the epoch.
+We multiply by β/σ, where β is the fraction of all blocks produced by the pool during the epoch.
 
 For a perfectly performing pool, one that produces all blocks that it can produce, this factor will be one, on average. The actual value will fluctuate due to the stochastic nature, or random process. of the Ouroboros Praos consensus algorithm.
 
