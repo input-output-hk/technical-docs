@@ -21,6 +21,4 @@ We recommend that you have one or more relay nodes, in addition to your Shelley 
 
 How to create a stake pool:
 
-To learn how to setup your own stake pool, please follow the  `Tutorials`_
-
-.._Tutorials <https://techdocs-cardano.netlify.app/cardano-tutorials/readme>_
+To learn how to setup your own stake pool, please follow the  [Tutorials](cardano-tutorials/readme.rst)
