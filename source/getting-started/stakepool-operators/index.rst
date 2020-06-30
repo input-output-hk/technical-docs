@@ -36,4 +36,5 @@ Each node should run on a dedicated server, and the core node server's firewall 
 
 **How to create a stake pool**
 
-To learn how to setup your own stake pool, please follow the _cardano-tutorials https://techdocs-cardano.netlify.app/cardano-tutorials/readme
+To learn how to setup your own stake pool, please follow the
+.. _cardano-tutorials: https://techdocs-cardano.netlify.app/cardano-tutorials/readme
