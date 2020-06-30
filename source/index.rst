@@ -3,7 +3,7 @@ Cardano Documentation
 =====================
 
 .. note:: 
-   Please note, all new documentation is currently hosted in this temporary site design. A new site UI with the refreshed Cardano brand look and feel is in the final stages of production and will be deployed here very soon
+   Please note, all new documentation is currently hosted in this temporary site design. A new site UI with the refreshed Cardano brand look and feel is in the final stages of production and will be deployed here very soon.
 
 Cardano is a decentralized third-generation proof-of-stake blockchain platform and home to the ada cryptocurrency. It is the first blockchain platform to evolve out of a scientific philosophy and a research-first driven approach.
 
