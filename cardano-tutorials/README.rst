@@ -1,4 +1,4 @@
-.. _tutorials:
+
 =================
 Cardano Tutorials
 =================
