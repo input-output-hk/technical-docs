@@ -2,7 +2,7 @@ Cardano Glossary
 ################
 
 .. list-table:: Cardano Glossary
-   :widths: auto auto
+   :widths: 20 80
    :header-rows: 1
 
    * - Term
