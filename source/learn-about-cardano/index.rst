@@ -7,6 +7,7 @@ Learn About Cardano
    :titlesonly:
 
    what-is-a-cardano-node
+   understanding-consensus
    what-is-a-stakepool
    understanding-the-delegation-mechanism
    understanding-pledging-and-rewards
