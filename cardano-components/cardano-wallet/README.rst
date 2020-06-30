@@ -1,12 +1,7 @@
-#####################
-cardano-wallet README
-#####################
 .. raw:: html
 
    <p align="center">
-   <!--
      <a href="https://coveralls.io/github/input-output-hk/cardano-wallet?branch=HEAD"><img src="https://img.shields.io/coveralls/github/input-output-hk/cardano-wallet/HEAD?style=for-the-badge" /></a>
-     -->
    </p>
 
 Overview
