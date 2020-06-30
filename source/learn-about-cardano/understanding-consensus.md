@@ -1,4 +1,4 @@
-## Understanding consensus?
+## Understanding consensus
 
 Consensus is the process by which a majority opinion is reached by everyone who is involved in running the blockchain. Agreement must be made on which blocks to produce, which chain to adopt, and to determine the single state of the network. The blocks that are made determine the state of the ledger - which transactions are confirmed, as well as account balance details.
 
