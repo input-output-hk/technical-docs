@@ -1,8 +1,6 @@
-===============================
-Contribute to Cardano Community
-===============================
-
-Contribute to Cardano Community
+===================================
+Contribute to the Cardano Community
+===================================
 
 .. toctree::
    :maxdepth: 3
