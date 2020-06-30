@@ -29,6 +29,7 @@ Cardano is a project that began in 2015 as an effort to change the way cryptocur
    :maxdepth: 3
    :caption: Cardano Components
    :titlesonly:
+   :hidden:
 
    cardano-components/adrestia/doc/index
    cardano-components/cardano-node/doc/index
