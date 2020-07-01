@@ -20,7 +20,7 @@ Cardano is developing a smart contract platform which seeks to deliver more adva
    :hidden:
 
    cardano-node Quickstart <cardano-components/cardano-node/doc/cardano-node-quickstart>
-   Stake pool Operators <getting-started/stake-pool-operators/index>
+   Stake Pool Operators <getting-started/stake-pool-operators/index>
    3rd-party Integration <getting-started/3rd-party-integration/index>
 
 .. toctree::
