@@ -11,8 +11,8 @@ Cardano Glossary
      - digital currency of the Cardano blockchain. Units of which are measured in lovelaces.
    * - Adrestia
      - name of the Haskell wallet backend.
-   * - Balance wallet
-     - A Balance wallet is a wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot. The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.
+   * - balance wallet
+     - a wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot. The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.
    * - Basho
      - fourth phase of Cardano development in which performance improvements will be integrated.
    * - block
@@ -21,6 +21,10 @@ Cardano Glossary
      - first 'boot strap' phase of Cardano development.
    * - consensus
      - the process by which a majority opinion is reached by everyone who is involved in running the blockchain. Agreement must be made on which blocks to produce, which chain to adopt, and to determine the single state of the network.
+   * - controlled stake
+     - the total amount of stake that a stake pool controls. It combines the stake that is owned by the pool operator with any stake that has been delegated to the pool by other ada holders. It can be measured as a total ada amount (e.g. 3M ada), or as a percentage of the total supply of ada within the network (e.g. 5%).
+   * - cost per epoch
+     - a fixed fee, in ada, which the stake pool operator takes every epoch from the pool rewards to cover the costs of running a stake pool. The cost per epoch is subtracted from the total ada that is rewarded to a pool, before the operator takes their profit margin. Whatever remains is shared equally among the delegators.
    * - DApp
      - decentralized application.
    * - delegation
@@ -34,13 +38,23 @@ Cardano Glossary
    * - lovelace
      - subunits of ada. One ada = 1,000,000 lovelaces.
    * - Ouroboros
-     - consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
+     - the consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
    * - peer discovery
      - the process by which nodes find each other on the network and initiate contact.
-   * - proof-of-stake
+   * - performance
+     - a measure of the efficency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce. For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.
+   * - produced blocks
+     - the number of blocks that have been produced by a stake pool in the current epoch. Stake pools are rewarded in ada for each block that they produce.
+   * - profit margin
+     - the percentage of total ada rewards that the stake pool operator takes before sharing the rest of the rewards between all the delegators to the pool. A lower profit margin for the operator means they are taking less, which means that delegators can expect to receive more of the rewards for their delegated stake. A private pool is a pool with a profit margin of 100%, meaning that all the rewards will go to the operator and none to the delegators.
+   * - proof of stake
      - a type of consensus mechanism used to reach agreement on records in the blockchain. It ensures distributed consensus based on the stake, or wealth, that is held by participants in the system. This stake is used as the main resource to determine the participant’s power in the system for maintaining the ledger.
    * - reward
      - an amount contained in each new block that is paid out to the stakeholder by the network.
+   * - rewards wallet
+     - a wallet that stores ada which can be used in stake delegation. The stake from a single Rewards wallet can only be delegated to a single stake pool. To delegate to more than one stake pool, you will need to create multiple Rewards wallets and distribute ada among them.
+   * - saturation
+     - a term used to indicate that a particular stake pool has more stake delegated to it than is ideal for the network. Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.
    * - Shelley
      - second phase of Cardano development in which network decentralization will be delivered.
    * - slot
@@ -57,17 +71,3 @@ Cardano Glossary
      - unspent transaction output.
    * - Voltaire
      - fifth phase of Cardano development in which treasury and governance capabilities will be delivered.
-   * - Rewards wallet
-     - A Rewards wallet is a wallet that stores ada which can be used in stake delegation. The stake from a single Rewards wallet can only be delegated to a single stake pool. To delegate to more than one stake pool, you will need to create multiple Rewards wallets and distribute ada among them.
-   * - Controlled stake
-     - This is the total amount of stake that a stake pool controls. It combines the stake that is owned by the pool operator with any stake that has been delegated to the pool by other ada holders. It can be measured as a total ada amount (e.g. 3M ada), or as a percentage of the total supply of ada within the network (e.g. 5%).
-   * - Performance
-     - The performance of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce. For example, if a pool only produces half the number of blocks that it was nominated for, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time. If a pool has not yet been selected to produce a block in the current epoch, its performance rating will be 0%, even if it is likely to produce blocks later in the epoch. Performance ratings of over 100% are possible if a pool creates more blocks than it was nominated to produce.Since this is a testnet, performance ratings should only be used as a guide, and may be affected by network uptime, updates, or parameter changes.
-   * - Produced blocks
-     - This is the number of blocks that have been produced by a stake pool in the current epoch. Stake pools are rewarded in ada for each block that they produce.
-   * - Profit margin
-     - The profit margin is the percentage of total ada rewards that the stake pool operator takes before sharing the rest of the rewards between all the delegators to the pool. A lower profit margin for the operator means they are taking less, which means that delegators can expect to receive more of the rewards for their delegated stake. A private pool is a pool with a profit margin of 100%, meaning that all the rewards will go to the operator and none to the delegators.
-   * - Cost per epoch
-     - This is a fixed fee, in ada, which the stake pool operator takes every epoch from the pool rewards to cover the costs of running a stake pool. The cost per epoch is subtracted from the total ada rewarded to a pool before the operator takes their profit margin. Whatever remains is shared with delegators.
-   * - Saturation
-     - Saturation is a term used to indicate that a particular stake pool has more stake delegated to it than is ideal for the network. Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.
