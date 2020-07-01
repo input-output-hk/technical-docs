@@ -1,10 +1,5 @@
 # Further Reading
 
-* [Stake pool operators guide (English)](https://ucarecdn.com/51558f80-e472-4160-9fb3-85c3d109d81f/-/inline/yes/)
-* [Stake pool operators guide (Japanese)](https://ucarecdn.com/a7ba770c-f2eb-41f7-8268-fd874ceaf233/-/inline/yes/)
-* [Stake pool operators guide (Chinese)](https://ucarecdn.com/e09babfb-bda1-4b19-8a8b-447631fc4981/-/inline/yes/)
-* [Stake pool operators guide (Korean)](https://ucarecdn.com/820faeed-a63d-4538-8ff0-2781b9d32fee/-/inline/yes/)
-
 You may find these web materials and videos useful:
 
 - [Incentivized Testnet website](https://staking.cardano.org/en/) 
