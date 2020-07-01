@@ -1,4 +1,4 @@
-# Further Reading
+# Further reading
 
 You may find these web materials and videos useful:
 * [Learn about stake pools and delegating stake](https://staking.cardano.org/)
@@ -15,7 +15,7 @@ You may find these web materials and videos useful:
 
 Blog posts
 
-IOHK’s researchers and engineers often post on [our blog page](https://iohk.io/en/blog/). Here are a couple of  posts about stake pools and the Shelley testnet which you may find helpful:
+IOHK’s researchers and engineers often post on [our blog page](https://iohk.io/en/blog/). Here are a couple of posts about current Cardano development initiatives which you may find helpful:
 * _[From Byron to Shelley: Part one, the testnets](https://iohk.io/en/blog/posts/2020/04/29/from-byron-to-shelley-part-one-the-testnets/)_ - By Kevin Hammond, software engineer at IOHK
 * _[From Byron to Shelley: Part two, the journey to mainnet](https://iohk.io/en/blog/posts/2020/05/11/from-byron-to-shelley-part-two-the-journey-to-the-mainnet/)_ - By Kevin Hammond, software engineer at IOHK
 * _[How Pledging will keep Cardano healthy](https://iohk.io/en/blog/posts/2020/05/12/how-pledging-encourages-a-healthy-decentralized-cardano-ecosystem/)_ - By Lars Brünjes, director of education at IOHK
