@@ -11,8 +11,8 @@ Cardano Glossary
      - digital currency of the Cardano blockchain. Units of which are measured in lovelaces.
    * - Adrestia
      - name of the Haskell wallet backend.
-   * - Balance wallet
-     - A Balance wallet is a wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot. The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.
+   * - balance wallet
+     - a wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot. The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.
    * - Basho
      - fourth phase of Cardano development in which performance improvements will be integrated.
    * - block
