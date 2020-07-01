@@ -63,8 +63,6 @@ Cardano Glossary
      - unspent transaction output.
    * - Voltaire
      - fifth phase of Cardano development in which treasury and governance capabilities will be delivered.
-   * - controlled stake
-     - the total amount of stake that a stake pool controls. It combines the stake that is owned by the pool operator with any stake that has been delegated to the pool by other ada holders. It can be measured as a total ada amount (e.g. 3M ada), or as a percentage of the total supply of ada within the network (e.g. 5%).
    * - performance
      - a measure of the efficency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce. For example, if a pool only produces half the number of blocks that it was nominated for, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.
    * - produced blocks
