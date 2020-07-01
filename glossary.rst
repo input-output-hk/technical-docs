@@ -14,11 +14,11 @@ Cardano Glossary
    * - balance wallet
      - a wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot. The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.
    * - Basho
-     - fourth phase of Cardano development in which performance improvements will be integrated.
+     - the fourth phase of Cardano development in which performance improvements will be integrated.
    * - block
      - a slot that contains a set of recent transactions on the network. Each block also contains data required to manage the blockchain such as an encrypted version of the previous block. As each block is completed, a new block is created to extend the chain.
    * - Byron
-     - first 'boot strap' phase of Cardano development.
+     - the first 'boot strap' phase of Cardano development.
    * - consensus
      - the process by which a majority opinion is reached by everyone who is involved in running the blockchain. Agreement must be made on which blocks to produce, which chain to adopt, and to determine the single state of the network.
    * - controlled stake
@@ -26,7 +26,7 @@ Cardano Glossary
    * - cost per epoch
      - a fixed fee, in ada, which the stake pool operator takes every epoch from the pool rewards to cover the costs of running a stake pool. The cost per epoch is subtracted from the total ada that is rewarded to a pool, before the operator takes their profit margin. Whatever remains is shared equally among the delegators.
    * - DApp
-     - decentralized application.
+     - a decentralized application.
    * - delegation
      - the process by which ada owners can participate in the network and earn rewards by delegating the stake associated with their ada holdings to a stake pool.
    * - epoch
@@ -34,9 +34,9 @@ Cardano Glossary
    * - faucet
      - a web-based service that provides free tokens to users of a testnet.
    * - Goguen
-     - third phase of Cardano development in which smart contracts will be delivered.
+     - the third phase of Cardano development in which smart contracts will be delivered.
    * - lovelace
-     - subunits of ada. One ada = 1,000,000 lovelaces.
+     - name for the subunits of ada. One ada = 1,000,000 lovelaces.
    * - Ouroboros
      - the consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
    * - peer discovery
@@ -56,11 +56,11 @@ Cardano Glossary
    * - saturation
      - a term used to indicate that a particular stake pool has more stake delegated to it than is ideal for the network. Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.
    * - Shelley
-     - second phase of Cardano development in which network decentralization will be delivered.
+     - the second phase of Cardano development in which network decentralization will be delivered.
    * - slot
      - a fixed period of time within an epoch. Each epoch of time is divided into numbered slots. Slots that contain transactions are called blocks.
    * - slot leader
-     - elected node that has been selected to create a block within the current slot. A random election process occurs based on the proportional stake.
+     - an elected node that has been selected to create a block within the current slot. A random election process occurs based on the proportional stake.
    * - stake pool
      - a reliable block-producing server node that holds the combined stake of various stakeholders in a single entity, or pool.
    * - testnet
@@ -70,4 +70,4 @@ Cardano Glossary
    * - UTXO
      - unspent transaction output.
    * - Voltaire
-     - fifth phase of Cardano development in which treasury and governance capabilities will be delivered.
+     - the fifth phase of Cardano development in which treasury and governance capabilities will be delivered.
