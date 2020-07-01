@@ -1,10 +1,3 @@
----
-title: What is proof of stake?  
-description: About
-parent: 2020-05-04_05-00-00_about-en.md
-order: 2
-last_updated: "2020-06-26T09:00:00+01:00"
----
 ## What is proof of stake?
 Proof of stake is a type of consensus mechanism used to reach agreement on records in the blockchain. It ensures distributed consensus based on the stake, or wealth, that is held by participants in the system. This stake is used as the main resource to determine the participant’s power in the system for maintaining the ledger.
 
