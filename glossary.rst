@@ -63,8 +63,6 @@ Cardano Glossary
      - unspent transaction output.
    * - Voltaire
      - fifth phase of Cardano development in which treasury and governance capabilities will be delivered.
-   * - rewards wallet
-     - a wallet that stores ada which can be used in stake delegation. The stake from a single Rewards wallet can only be delegated to a single stake pool. To delegate to more than one stake pool, you will need to create multiple Rewards wallets and distribute ada among them.
    * - controlled stake
      - the total amount of stake that a stake pool controls. It combines the stake that is owned by the pool operator with any stake that has been delegated to the pool by other ada holders. It can be measured as a total ada amount (e.g. 3M ada), or as a percentage of the total supply of ada within the network (e.g. 5%).
    * - performance
