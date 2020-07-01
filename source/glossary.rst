@@ -8,7 +8,7 @@ Cardano Glossary
    * - Term
      - Definition
    * - ada
-     - digital currency of the Cardano blockchain. Units of which are measured in lovelaces.
+     - name of the digital currency of the Cardano blockchain. Units of which are measured in lovelaces.
    * - Adrestia
      - name of the Haskell wallet backend.
    * - balance wallet
