@@ -37,7 +37,7 @@ Cardano Glossary
      - consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
    * - peer discovery
      - the process by which nodes find each other on the network and initiate contact.
-   * - proof-of-stake
+   * - proof of stake
      - a type of consensus mechanism used to reach agreement on records in the blockchain. It ensures distributed consensus based on the stake, or wealth, that is held by participants in the system. This stake is used as the main resource to determine the participant’s power in the system for maintaining the ledger.
    * - reward
      - an amount contained in each new block that is paid out to the stakeholder by the network.
