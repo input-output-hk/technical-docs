@@ -21,6 +21,8 @@ Cardano Glossary
      - first 'boot strap' phase of Cardano development.
    * - consensus
      - the process by which a majority opinion is reached by everyone who is involved in running the blockchain. Agreement must be made on which blocks to produce, which chain to adopt, and to determine the single state of the network.
+   * - controlled stake
+     - the total amount of stake that a stake pool controls. It combines the stake that is owned by the pool operator with any stake that has been delegated to the pool by other ada holders. It can be measured as a total ada amount (e.g. 3M ada), or as a percentage of the total supply of ada within the network (e.g. 5%).
    * - DApp
      - decentralized application.
    * - delegation
