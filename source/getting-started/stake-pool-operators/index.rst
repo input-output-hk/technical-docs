@@ -1,5 +1,5 @@
-Getting Started with Stakepool Operations
-=========================================
+Getting Started with Stake Pool Operations
+==========================================
 
 Stake pools use the Cardano node to validate how the pool interacts with the network, sends transactions, creates blocks, and so on.
 
