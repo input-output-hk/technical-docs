@@ -1,0 +1,37 @@
+An exchange intending to list ada can use a series of components, depending on whether the exchange wants to run a local block explorer with specific APIs or custom APIs.
+
+** Running local block explorers with specific APIs **
+
+If the exchange intends to run a local block explorer with specific APIs, they can use the following components:
+
+- cardano-node
+- cardano-db-sync
+- Postgresql DB
+- cardano-rest
+
+** Running local block explorers with custom APIs **
+
+If the exchange intends to run a local block explorer with custom APIs, they can use the following components:
+
+- cardano-node
+- cardano-db-sync
+- Postgresql DB
+- cardano-graphql  
+- cardano-node
+- cardano-wallet
+
+**cardano-node** Supports the Ouroboros Praos proof-of-stake consensus algorithm.
+**cardano-db-sync** The required middleware to power both cardano-rest and cardano-graphql. cardano-db-sync stores blockchain data fetched from cardano-node in an intermediate database, to enable higher-level interfaces for blockchain exploration.
+**cardano-wallet** The recommended API for third-party wallets and exchanges that do not want to manage UTxOs. Note that cardano-wallet can be used to send and receive payments from hierarchical deterministic wallets on the Cardano blockchain, either via HTTP REST or a CLI interface.
+**cardano-rest** The component that includes two HTTP APIs to retrieve transactions, addresses, and time periods (epochs and slots), from the cardano-db-sync component, and submit an already serialized transaction to the network using cardano-explorer-api and cardano-submit-api respectively. The cardano-submit-api uses the same API as the cardano-sl:explorer to ease migration from already integrated clients. New integrations should use cardano-graphql.
+**cardano-graphql** The HTTP GraphQL API for Cardano. A more flexible alternative for blockchain exploration than cardano-rest.
+
+**Adrestia Haskell SDK libraries**
+
+These libraries enable exchanges to create their own wallet and manage coin selection, address generation with serialization. The libraries are particularly useful for exchanges who want more control over UTXOs.
+
+-cardano-coin-selection
+-cardano-addresses
+-cardano-transactions
+-cardano-serialization-lib
+-bech32
