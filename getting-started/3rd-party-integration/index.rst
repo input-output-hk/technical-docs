@@ -1,4 +1,4 @@
-Getting Started with 3rd-party Integration
+Getting started for third-party integrators
 ==========================================
 
 .. note::
