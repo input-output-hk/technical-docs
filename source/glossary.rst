@@ -35,6 +35,8 @@ Cardano Glossary
      - a web-based service that provides free tokens to users of a testnet.
    * - Goguen
      - the third phase of Cardano development in which smart contracts will be delivered.
+   * - incentive
+     - a way to encourage participants of the system to engage in the network by rewarding them with a return that is proportional to their efforts. Incentives aim to ensure equality and fairness in a distributed network of participants by encouraging consistent, active, and strong participation. Cardano's incentives model uses game theory to calculate the incentives required. 
    * - lovelace
      - name for the subunits of ada. One ada = 1,000,000 lovelaces.
    * - mainnet
