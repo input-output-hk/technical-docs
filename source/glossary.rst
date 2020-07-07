@@ -37,6 +37,8 @@ Cardano Glossary
      - the third phase of Cardano development in which smart contracts will be delivered.
    * - lovelace
      - name for the subunits of ada. One ada = 1,000,000 lovelaces.
+   * - mainnet
+     - a live blockchain that has been deployed and is in operation.
    * - Ouroboros
      - the consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
    * - peer discovery
