@@ -13,8 +13,6 @@ Cardano has been designed with security as one of its founding principles. It is
 
 Cardano is developing a smart contract platform which seeks to deliver more advanced features than any protocol previously developed and will serve as a stable and secure platform for the development of enterprise-level dApps. In the near future, Cardano will use a democratic governance system that allows the project to evolve over time, and fund itself in a sustainable way through a visionary treasury system. If you want to learn more about Cardano, please visit the `official Cardano website <http://cardano.org/>`_.
 
-test
-
 .. toctree::
    :maxdepth: 3
    :caption: Getting Started
