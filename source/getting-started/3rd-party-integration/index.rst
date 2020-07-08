@@ -66,3 +66,9 @@ support for JavaScript is being worked on and should be available soon.
 .. _cardano-serialization-lib: https://github.com/Emurgo/cardano-serialization-lib
 .. _bech32: https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
 .. _Github: https://github.com/input-output-hk/adrestia/
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   exchanges
