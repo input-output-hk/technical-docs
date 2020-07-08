@@ -41,12 +41,16 @@ Cardano Glossary
      - name for the subunits of ada. One ada = 1,000,000 lovelaces.
    * - mainnet
      - a live blockchain that has been deployed and is in operation.
+   * - node
+     - the core component that is used to participate in the Cardano blockchain. A node runs the software that implements the Ouroboros protocol underlying Cardano and it validates tasks related to networking, transactions, and blocks.
    * - Ouroboros
      - the consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
    * - peer discovery
      - the process by which nodes find each other on the network and initiate contact.
    * - performance
      - a measure of the efficency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce. For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.
+   * - pledging
+     - the process by which stake pool owners pledge some, or all, of your ada to the pool, to make it more attractive to people that want to delegate. The higher the amount of ada that is pledged, the higher the rewards that will be paid out to members of the pool.
    * - produced blocks
      - the number of blocks that have been produced by a stake pool in the current epoch. Stake pools are rewarded in ada for each block that they produce.
    * - profit margin
