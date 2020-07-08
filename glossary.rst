@@ -10,7 +10,7 @@ Cardano Glossary
    * - ada
      - name of the digital currency of the Cardano blockchain. Units of which are measured in lovelaces.
    * - address
-     - indicates a unique set of numbers and symbols identifying a particular wallet. The address allows users to receive payments, process transactions, and control their stake.
+     - indicates a unique set of numbers and symbols identifying a particular wallet. An address allows users to receive payments, process transactions, and control their stake.
    * - Adrestia
      - name of the Haskell wallet backend.
    * - balance wallet
