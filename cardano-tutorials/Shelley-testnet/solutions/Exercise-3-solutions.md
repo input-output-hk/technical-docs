@@ -16,7 +16,7 @@ First, we need to setup our __block-producing node__. You can build the node fro
 ### Basic block-producing node firewall configuration:
 
 * Make sure you can only login with SSH Keys, not password.
-* Make sure to setup SSH connections in a port different than the the default 22
+* Make sure to setup SSH connections in a port different than the default 22
 * Make sure to configure the firewall to only allow connections from your relay nodes by setting up their ip addresses.
 
 ### Basic relay node firewall configuration:
@@ -78,7 +78,7 @@ Look for Tip `unSlotNo` value. In this example we are on slot 432571. So in this
     expr 432571 / 3600
     > 120
 
-With this information we can generate our opertional certificate:
+With this information we can generate our operational certificate:
 
     cardano-cli shelley node issue-op-cert \
     --kes-verification-key-file kes.vkey \
@@ -120,7 +120,7 @@ And verify that they are gone:
 
 ### Configure topology files for block-producing and relay nodes.
 
-Get the configuration files for your block-producing node if you dont have them already:
+Get the configuration files for your block-producing node if you don't have them already:
 
     mkdir config-files
     cd config-files     

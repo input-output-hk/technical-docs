@@ -75,7 +75,7 @@ The team's process is derived from [extreme programming][xp] and adapted for rem
 - During recovery weeks, the team has a dedicated moment to tackle some of the technical debts. This includes:
     - Reviewing and extending code documentation
     - Refactoring some potentially entangled parts of the code
-    - Re-organizing modules and folder achitecture
+    - Re-organizing modules and folder architecture
     - Fix small `TODOs` or `FIXMEs`, or, turn them into U/S 
     - Identify areas of the source code which needs improvement
 - Recovery weeks happen instead of a sprint, and start with a retrospective meeting about the last 3 sprints.

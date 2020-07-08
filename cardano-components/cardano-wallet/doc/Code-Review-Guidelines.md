@@ -77,7 +77,7 @@ e.g.
 
 Authors Don’t | Authors Do
 --- | ---
-That makes sense in some cases butnot here. | I added a comment about why it’s implemented that way.
+That makes sense in some cases but not here. | I added a comment about why it’s implemented that way.
 
 ### DO: When disagreeing with feedback, explain the advantage of your approach. 
 

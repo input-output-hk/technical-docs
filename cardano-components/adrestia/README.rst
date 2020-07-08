@@ -83,7 +83,7 @@ Internal
 --------
 
 .. warning::
-    Here be dragons. These tools are used internally by other tools and does not benefit from the same care in documentation thanother tools above.
+    Here be dragons. These tools are used internally by other tools and does not benefit from the same care in documentation than other tools above.
 
 
 +-------------------+--------------------------------------------------+

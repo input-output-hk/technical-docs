@@ -208,7 +208,7 @@ or
     cardano-cli shelley query ledger-state --testnet-magic 42 \
     | jq '._delegationState._pstate._pParams.<poolid>'
 
-which should return a non-empty string if your poolID is located in the ledger. You can then then head over to a pool listing website such as https://ff.pooltool.io/ and (providing it is up and running and showing a list of registered stake pools) you should hopefully be able to find your pool in there by searching using your poolID, and subsequently claiming it (might require registration on the website) and giving it a customized name.
+which should return a non-empty string if your poolID is located in the ledger. You can then head over to a pool listing website such as https://ff.pooltool.io/ and (providing it is up and running and showing a list of registered stake pools) you should hopefully be able to find your pool in there by searching using your poolID, and subsequently claiming it (might require registration on the website) and giving it a customized name.
 
 ### 6. Temporary step until DB-sync is upgraded
 

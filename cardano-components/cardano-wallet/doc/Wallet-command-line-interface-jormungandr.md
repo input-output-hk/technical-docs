@@ -251,7 +251,7 @@ one database file per wallet.
 
 ##### --genesis-block-hash
 
-This is a hash of the the genesis block file which can obtained using Jörmungandr's tool command-line `jcli` as follows:
+This is a hash of the genesis block file which can obtained using Jörmungandr's tool command-line `jcli` as follows:
 
 ```
 $ jcli genesis hash --input block0.bin
@@ -393,7 +393,7 @@ $ cardano-wallet wallet get 2512a00e9653fe49a44a5886202e24d77eeb998f
 
 > `cardano-wallet wallet utxo [--port=INT] WALLET_ID`
 
-Visualize a wallet's UTxO distribution in the form of an histrogram with a logarithmic scale.
+Visualize a wallet's UTxO distribution in the form of an histogram with a logarithmic scale.
 The distribution's data is returned by the API in a JSON format, e.g.:
 
 ```json

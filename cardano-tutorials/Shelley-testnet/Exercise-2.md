@@ -49,7 +49,7 @@ As before, if you have any questions or encounter any problems, please feel free
 
 ### Exercises
 
-In this excercise we will be following steps from [Creating a Simple Transaction tutorial](../node-setup/040_transactions.md)
+In this exercise we will be following steps from [Creating a Simple Transaction tutorial](../node-setup/040_transactions.md)
 
 1. If you are not on the correct version of the node, then some of these commands may not work.
    It may be frustrating to stop and restart a working system, but it is better than discovering that
@@ -134,7 +134,7 @@ Note that there are two outputs. First is the amount sent to account B, second i
 
 We are now ready to sign the transaction and submit it to the chain.
 
-4. Sign your transaction in *txbody* using the signing key for *payment.addr* (created in Excercise 1) :
+4. Sign your transaction in *txbody* using the signing key for *payment.addr* (created in Exercise 1) :
 
 ```bash
         cardano-cli shelley transaction sign \
