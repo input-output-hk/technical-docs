@@ -1,7 +1,7 @@
 Cardano Glossary
 ################
 
-.. list-table:: Cardano Glossary
+.. list-table:: 
    :widths: 15 85
    :header-rows: 1
 
@@ -9,6 +9,8 @@ Cardano Glossary
      - Definition
    * - ada
      - name of the digital currency of the Cardano blockchain. Units of which are measured in lovelaces.
+   * - address
+     - indicates a unique set of numbers and symbols identifying a particular wallet. The address allows users to receive payments, process transactions, and control their stake.
    * - Adrestia
      - name of the Haskell wallet backend.
    * - balance wallet
@@ -17,8 +19,12 @@ Cardano Glossary
      - the fourth phase of Cardano development in which performance improvements will be integrated.
    * - block
      - a slot that contains a set of recent transactions on the network. Each block also contains data required to manage the blockchain such as an encrypted version of the previous block. As each block is completed, a new block is created to extend the chain.
+   * - BFT
+     - Byzantine fault tolerance (BFT), is a property in the system that ensures there is resistance to certain types of Byzantine failures. A BFT system can continue to operate even if some nodes fail or malicious behvaiour occurs in the system.
    * - Byron
      - the first 'boot strap' phase of Cardano development.
+   * - chain
+     - a set of blocks that have been produced and are connected to another in consecutive order.
    * - consensus
      - the process by which a majority opinion is reached by everyone who is involved in running the blockchain. Agreement must be made on which blocks to produce, which chain to adopt, and to determine the single state of the network.
    * - controlled stake
