@@ -1,6 +1,6 @@
 ## Exchanges
 
-An exchange intending to list ada can use a series of components, depending on whether the exchange wants to run a local block explorer with specific APIs or custom APIs.
+An exchange intending to list ada can use a series of components, depending on whether the exchange wants to run a local block explorer with **specific APIs** or **custom APIs**.
 
 **Running local block explorers with specific APIs**
 
