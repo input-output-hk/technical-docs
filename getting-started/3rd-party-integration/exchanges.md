@@ -22,7 +22,7 @@ If the exchange intends to run a local block explorer with *custom* APIs, they c
 -   cardano-node
 -   cardano-wallet
 
-### Adrestia Haskell SDK libraries###
+### Adrestia Haskell SDK libraries
 
 These libraries enable exchanges to create their own wallet and manage coin selection, address generation with serialization. The libraries are particularly useful for exchanges who want more control over UTXOs.
 
