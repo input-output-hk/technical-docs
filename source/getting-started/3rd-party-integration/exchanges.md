@@ -31,3 +31,7 @@ These libraries enable exchanges to create their own wallet and manage coin sele
 -   cardano-transactions
 -   cardano-serialization-lib
 -   bech32
+
+### Operational guide and support
+
+An operational guide and other resources for exchanges are available on the [IOHK support page](https://iohk.zendesk.com/hc/en-us/sections/360002109494-Exchange-integration)
