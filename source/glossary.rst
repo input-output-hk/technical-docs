@@ -32,7 +32,7 @@ Cardano Glossary
    * - cost per epoch
      - a fixed fee, in ada, which the stake pool operator takes every epoch from the pool rewards to cover the costs of running a stake pool. The cost per epoch is subtracted from the total ada that is rewarded to a pool, before the operator takes their profit margin. Whatever remains is shared equally among the delegators.
    * - Daedalus
-     - an open-source wallet in Cardano blockchain that helps to manage ada, and to send and receive payments. Daedalus has a friendly user interface and is recommended for new users to start with.
+     - a secure wallet for the ada cryptocurrency that manages balances and provides the ability to send and receive payments. Daedalus is a full node wallet which means that it downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. It has a friendly user interface and is recommended for new users to start with.
    * - DApp
      - a decentralized application.
    * - delegation
