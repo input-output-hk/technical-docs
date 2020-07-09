@@ -35,6 +35,8 @@ Cardano Glossary
      - a web-based service that provides free tokens to users of a testnet.
    * - fee
      - amount of ada or other cryptocurrency charged for transaction processing.
+   * - fungible token
+     - a digital asset representing value that can be divided into smaller fractions like one ada is divided into lovelaces or one bitcoin into satoshi.
    * - Goguen
      - the third phase of Cardano development in which smart contracts will be delivered.
    * - incentive
@@ -43,8 +45,6 @@ Cardano Glossary
      - name for the subunits of ada. One ada = 1,000,000 lovelaces.
    * - mainnet
      - a live blockchain that has been deployed and is in operation.
-   * - node
-     - the core component that is used to participate in the Cardano blockchain. A node runs the software that implements the Ouroboros protocol underlying Cardano and it validates tasks related to networking, transactions, and blocks. There are two types of nodes: block-producing nodes, and relay nodes, which are nodes with no operational certificates. 
    * - Ouroboros
      - the consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
    * - peer discovery
