@@ -44,7 +44,7 @@ Cardano Glossary
    * - fee
      - amount of ada or other cryptocurrency charged for transaction processing.
    * - fungible token
-     - a digital asset representing value that can be divided into smaller fractions like one ada is divided into lovelaces or one bitcoin into satoshi.
+     - a digital asset representing value that can be divided into smaller fractions, for example, one ada is divided into lovelaces or one bitcoin into satoshi.
    * - Goguen
      - the third phase of Cardano development in which smart contracts will be delivered.
    * - hard fork
