@@ -13,6 +13,8 @@ Cardano Glossary
      - indicates a unique set of numbers and symbols identifying a particular wallet. The address allows users to receive payments, process transactions, and control their stake.
    * - Adrestia
      - name of the Haskell wallet backend.
+   * - asset
+     - a digital item of property that holds value stored in the distributed ledger. An asset can represent security or utility tokens of fungible or non-fungible nature.
    * - balance wallet
      - a wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot. The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.
    * - Basho
@@ -51,6 +53,8 @@ Cardano Glossary
      - a radical change of the network’s protocol changing the state of operational flow from one model to a completely different one. Cardano is currently undergoing the hard fork from a federated model to a decentralized one.
    * - incentive
      - a way to encourage participants of the system to engage in the network by rewarding them with a return that is proportional to their efforts. Incentives aim to ensure equality and fairness in a distributed network of participants by encouraging consistent, active, and strong participation. Cardano's incentives model uses game theory to calculate the incentives required.
+   * - interoperability
+     - one of the significant features within Cardano development that aims to enable interconnection between numerous blockchains and legitimate recognition of activities by central authorities. Enabled cross-chain transfers and the establishment of the internet of blockchains will grant enhanced user experience and functionality.
    * - key pair
      - a set of two keys: public verification key and private signing key. These keys are used to process and approve transactions within the blockchain.
    * - ledger
@@ -109,6 +113,8 @@ Cardano Glossary
      - transactions per second.
    * - transaction
      - an instance that represents the process of sending or receiving funds in the system. 
+   * - treasury
+     - a virtual pot where 5% of all earned rewards go every epoch. During the Voltaire era, treasury reserves will be used for further development, system improvements, and to ensure the long-term sustainability of Cardano.
    * - tx
      - see transaction 
    * - UTXO
