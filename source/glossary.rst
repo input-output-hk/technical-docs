@@ -33,6 +33,8 @@ Cardano Glossary
      - a defined group of slots that constitute a period of time.
    * - faucet
      - a web-based service that provides free tokens to users of a testnet.
+   * - fee
+     - amount of ada or other cryptocurrency charged for transaction processing.
    * - Goguen
      - the third phase of Cardano development in which smart contracts will be delivered.
    * - incentive
