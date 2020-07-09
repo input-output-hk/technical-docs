@@ -44,7 +44,7 @@ Cardano Glossary
    * - fee
      - amount of ada or other cryptocurrency charged for transaction processing.
    * - fungible token
-     - a digital asset representing value that can be divided into smaller fractions, for example, one ada is divided into lovelaces or one bitcoin into satoshi.
+     - a digital asset representing value that can be divided into smaller fractions like one ada is divided into lovelaces or one bitcoin into satoshi.
    * - Goguen
      - the third phase of Cardano development in which smart contracts will be delivered.
    * - hard fork
@@ -65,20 +65,28 @@ Cardano Glossary
      - a set of additional data stating certain transaction conditions or owner details. In smart contracts, metadata represents conditions under which a deal should execute. In a non-fungible token, metadata can store owner ID, ownership status, or intellectual rights.
    * - network
      - a technical infrastructure combining Cardano-nodes and relative interactions in one unified system.
+   * - non-fungible token
+     - a digital asset acting as an information holder. It can contain ownership rights or intellectual property rights. Non-fungible means that it cannot be divided into smaller fractions. Hence, it acts as one unit representing particular information.
    * - OBFT
      - Ouroboros Byzantine Fault Tolerant protocol. See BFT.
    * - Ouroboros
      - the consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
+   * - P2P
+     - peer-to-peer. Sending transactions or sharing files directly between nodes in a decentralized system without depending on a centralized authority.
    * - peer discovery
      - the process by which nodes find each other on the network and initiate contact.
    * - performance
      - a measure of the efficency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce. For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.
+   * - Plutus
+     - a Turing-complete programming platform for writing functional smart contracts on the Cardano blockchain. Plutus is based on the Haskell programming language.
    * - produced blocks
      - the number of blocks that have been produced by a stake pool in the current epoch. Stake pools are rewarded in ada for each block that they produce.
    * - profit margin
      - the percentage of total ada rewards that the stake pool operator takes before sharing the rest of the rewards between all the delegators to the pool. A lower profit margin for the operator means they are taking less, which means that delegators can expect to receive more of the rewards for their delegated stake. A private pool is a pool with a profit margin of 100%, meaning that all the rewards will go to the operator and none to the delegators.
    * - proof of stake
      - a type of consensus mechanism used to reach agreement on records in the blockchain. It ensures distributed consensus based on the stake, or wealth, that is held by participants in the system. This stake is used as the main resource to determine the participant’s power in the system for maintaining the ledger.
+   * - protocol
+     - a term used for consensus reaching methods. For instance, Ouroboros protocol, OBFT protocol.
    * - reward
      - an amount contained in each new block that is paid out to the stakeholder by the network.
    * - rewards wallet
@@ -95,9 +103,17 @@ Cardano Glossary
      - a reliable block-producing server node that holds the combined stake of various stakeholders in a single entity, or pool.
    * - testnet
      - a test network where users can experiment with new features and code and provide their feedback before a live mainnet launch. A testnet can be run locally or in some cases a public is used.
+   * - token
+     - a digital unit that represents a footprint of value defined by the community, market state, or self-governed entity. A token can act as a payment unit, reward, trading asset, or information holder.
    * - tps
      - transactions per second.
+   * - transaction
+     - an instance that represents the process of sending or receiving funds in the system. 
+   * - tx
+     - see transaction 
    * - UTXO
      - unspent transaction output.
    * - Voltaire
      - the fifth phase of Cardano development in which treasury and governance capabilities will be delivered.
+   * - Yoroi
+     - a light wallet for Cardano that is used to manage ada balances and conduct transactions. A simple, fast, and secure wallet for daily use purposes that is developed by Emurgo.
