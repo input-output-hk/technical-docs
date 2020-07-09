@@ -9,22 +9,30 @@ Cardano Glossary
      - Definition
    * - ada
      - name of the digital currency of the Cardano blockchain. Units of which are measured in lovelaces.
+   * - address
+     - indicates a unique set of numbers and symbols identifying a particular wallet. The address allows users to receive payments, process transactions, and control their stake.
    * - Adrestia
      - name of the Haskell wallet backend.
    * - balance wallet
      - a wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot. The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.
    * - Basho
      - the fourth phase of Cardano development in which performance improvements will be integrated.
+   * - BFT
+     - Byzantine fault tolerance (BFT), is a property in the system that ensures there is resistance to certain types of failures. A BFT system can continue to operate even if some nodes fail or malicious behavior occurs in the system.
    * - block
      - a slot that contains a set of recent transactions on the network. Each block also contains data required to manage the blockchain such as an encrypted version of the previous block. As each block is completed, a new block is created to extend the chain.
    * - Byron
      - the first 'boot strap' phase of Cardano development.
+   * - chain
+     - a set of blocks that have been produced and are connected to another in consecutive order.
    * - consensus
      - the process by which a majority opinion is reached by everyone who is involved in running the blockchain. Agreement must be made on which blocks to produce, which chain to adopt, and to determine the single state of the network.
    * - controlled stake
      - the total amount of stake that a stake pool controls. It combines the stake that is owned by the pool operator with any stake that has been delegated to the pool by other ada holders. It can be measured as a total ada amount (e.g. 3M ada), or as a percentage of the total supply of ada within the network (e.g. 5%).
    * - cost per epoch
      - a fixed fee, in ada, which the stake pool operator takes every epoch from the pool rewards to cover the costs of running a stake pool. The cost per epoch is subtracted from the total ada that is rewarded to a pool, before the operator takes their profit margin. Whatever remains is shared equally among the delegators.
+   * - Daedalus
+     - an open-source wallet in Cardano blockchain that helps to manage ada, and to send and receive payments. Daedalus has a friendly user interface and is recommended for new users to start with.
    * - DApp
      - a decentralized application.
    * - delegation
@@ -39,12 +47,26 @@ Cardano Glossary
      - a digital asset representing value that can be divided into smaller fractions like one ada is divided into lovelaces or one bitcoin into satoshi.
    * - Goguen
      - the third phase of Cardano development in which smart contracts will be delivered.
+   * - hard fork
+     - a radical change of the network’s protocol changing the state of operational flow from one model to a completely different one. Cardano is currently undergoing the hard fork from a federated model to a decentralized one.
    * - incentive
-     - a way to encourage participants of the system to engage in the network by rewarding them with a return that is proportional to their efforts. Incentives aim to ensure equality and fairness in a distributed network of participants by encouraging consistent, active, and strong participation. Cardano's incentives model uses game theory to calculate the incentives required. 
+     - a way to encourage participants of the system to engage in the network by rewarding them with a return that is proportional to their efforts. Incentives aim to ensure equality and fairness in a distributed network of participants by encouraging consistent, active, and strong participation. Cardano's incentives model uses game theory to calculate the incentives required.
+   * - key pair
+     - a set of two keys: public verification key and private signing key. These keys are used to process and approve transactions within the blockchain.
+   * - ledger
+     - a distributed database that is operated in a decentralized manner by multiple nodes across numerous locations.
    * - lovelace
      - name for the subunits of ada. One ada = 1,000,000 lovelaces.
    * - mainnet
      - a live blockchain that has been deployed and is in operation.
+   * - Marlowe
+     - a domain-specific programming language (DSL) that is built on top of Plutus functionality. Marlowe can be used for financial purposes. There is a friendly Marlowe playground - an environment where non-technical users can easily execute smart contracts prewriting specific conditions.
+   * - metadata
+     - a set of additional data stating certain transaction conditions or owner details. In smart contracts, metadata represents conditions under which a deal should execute. In a non-fungible token, metadata can store owner ID, ownership status, or intellectual rights.
+   * - network
+     - a technical infrastructure combining Cardano-nodes and relative interactions in one unified system.
+   * - OBFT
+     - Ouroboros Byzantine Fault Tolerant protocol. See BFT.
    * - Ouroboros
      - the consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.
    * - peer discovery
