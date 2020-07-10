@@ -20,7 +20,7 @@ Or with the command line using:
     wget https://hydra.iohk.io/job/Cardano/cardano-node/cardano-deployment/latest-finished/download/1/shelley_testnet-genesis.json
     wget https://hydra.iohk.io/job/Cardano/cardano-node/cardano-deployment/latest-finished/download/1/shelley_testnet-topology.json
 
-Starting the the node uses the command `cardano-node run` and a set of options.
+Starting the node uses the command `cardano-node run` and a set of options.
 
 You can get the complete list of available options with `cardano-node run --help`  
 
