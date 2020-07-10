@@ -18,6 +18,7 @@ Stake pools are a key part of a decentralized Cardano, supporting the mechanisms
    metadada
    public-stakepools
    metadata-proxy-servers
+   how-to-attract-delegators
 
 **Recommended setup**
 
