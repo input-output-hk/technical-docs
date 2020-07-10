@@ -523,7 +523,7 @@ lints at a function site using a proper annotation:
 > **Why**
 > 
 > Linters are common practices in software development and help maintaining consistency across a large codebase with
-> many developers. Hlint is de de-facto linter in Haskell and comes with a lot of different rules and features that 
+> many developers. Hlint is the de-facto linter in Haskell and comes with a lot of different rules and features that 
 > are _most of the time_ rather relevant and convey good practices, agreed upon and shared across the team. 
 
 e.g.
@@ -636,14 +636,14 @@ The comments might answer the question _why?_ They _might_:
 2. Explain the relation to business functionality
 3. Provide some other good-to-know information
 
-We should keep an eye out out-of-date comments. For instance when creating and reviewing PRs.
+We should keep an eye out for out-of-date comments. For instance when creating and reviewing PRs.
 
 > **Why**
 >
 > Even if individual functions are well-documented, it can be difficult to grasp how it all fits together.
 >
 > In the legacy code-base, it was common to have multiple functions with the same or similar names, in different modules.
-> Try seaching for `applyBlocks` or `switchToFork`. What is the difference between `DB.Spec.Update.switchToFork` and `DB.AcidState.switchToFork`?
+> Try searching for `applyBlocks` or `switchToFork`. What is the difference between `DB.Spec.Update.switchToFork` and `DB.AcidState.switchToFork`?
 >
 > Having a comment at the top of each module would be an easy-to-follow rule to better document this. It is also very appropriate for 
 > our [haddock docs](https://input-output-hk.github.io/cardano-wallet/haddock/).
@@ -755,7 +755,7 @@ instance Arbitrary HumanReadableChar where
 When pattern-matching on sum types or finite structures, we should avoid
 the use of the wildcard `_` as much as possible, and instead favor explicit
 handling of all branches. This way, we get compiler errors when extending
-the underlying ADT and avoid silently handling (probably incorretly) some
+the underlying ADT and avoid silently handling (probably incorrectly) some
 of the new branches.
 
 > **Why**
@@ -918,7 +918,7 @@ that are typically hard to read through their standard `Show` instance. For mona
 > when printed out to the console using only the stock `Show` instance. On the other hand, we
 > want to keep using the stock `Show` instance in order to be able to easily copy-paste failing
 > cases and turn them into regression tests. QuickCheck however provides a good set of tools to 
-> display counter examples on failures to ease debbugging. 
+> display counter examples on failures to ease debugging. 
 
 <details>
   <summary>See examples</summary>
@@ -957,7 +957,7 @@ inputs or results of a property. These should be used in properties dealing with
 > coverage. QuickCheck default generators are typically skewed towards certain edge values to favor bug finding but this
 > is sometimes counter-intuitive. For example, when testing with lists or maps, it often happens that most of the test cases
 > are actually testing on empty values. In order to make sure that some interesting test cases are still covered, it is
-> necessary to instrument properties so that they can mesure how often certain cases appear in a particular property.
+> necessary to instrument properties so that they can measure how often certain cases appear in a particular property.
 
 <details>
   <summary>See Examples</summary>

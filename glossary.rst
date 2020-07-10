@@ -80,7 +80,9 @@ Cardano Glossary
    * - peer discovery
      - the process by which nodes find each other on the network and initiate contact.
    * - performance
-     - a measure of the efficency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce. For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.
+     - a measure of the efficiency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce. For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.
+   * - pledging
+     - the process by which stake pool owners pledge some, or all, of their ada to the pool, to make it more attractive to people that want to delegate. The higher the amount of ada that is pledged, the higher the rewards that will be paid out to members of the pool.
    * - Plutus
      - a Turing-complete programming platform for writing functional smart contracts on the Cardano blockchain. Plutus is based on the Haskell programming language.
    * - produced blocks

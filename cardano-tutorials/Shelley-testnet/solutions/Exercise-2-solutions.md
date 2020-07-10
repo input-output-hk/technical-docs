@@ -40,7 +40,7 @@ Let's create a second __payment key pair__ and __address__ (You should have crea
 	    --verification-key-file payment2.vkey \
 	    --signing-key-file payment2.skey
 
-This has created two files containging our signing key and our verification key, let's take a look.
+This has created two files containing our signing key and our verification key, let's take a look.
 
 	$ cat payment2.skey
 
@@ -124,7 +124,7 @@ We also need the UTXO details of the __payment.addr__ that will send the funds.
 
 Sending funds to our new `payment2.addr`requires five (5) simple steps.
 
-   1. Determine the appropiate TTL (Time to live)
+   1. Determine the appropriate TTL (Time to live)
    2. Calculate the fee
    3. Build the transaction
    4. Sign the transaction
@@ -163,7 +163,7 @@ Now we need to make some quick math, lets say we want to send 100 tADA to `payme
 	$ expr 499498404313 - 100000000 - 167965
 	499398236348
 
- The result is the ammount we need to send back to our own `payment.addr`
+ The result is the amount we need to send back to our own `payment.addr`
 
 **BUILD TRANSACTION**
 

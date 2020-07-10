@@ -147,7 +147,7 @@ Here is a brief description of each parameter. You can learn more in the [spec](
 
 The default `config.json` file that we downloaded is shown below.
 
-This file has __4__ sections that allow you to have full control on what your node does and how the informtion is presented.
+This file has __4__ sections that allow you to have full control on what your node does and how the information is presented.
 
 __NOTE Due to how the config.json file is generated, fields on the real file are shown in a different (less coherent) order. Here we present them in a more structured way__
 
@@ -161,9 +161,9 @@ Note that in this example we are using the SimpleView. This will send the output
 	  "GenesisFile": "shelley_testnet-genesis.json",
 	  "RequiresNetworkMagic": "RequiresMagic",
 
-### 2 Update parameteres
+### 2 Update parameters
 
-This protocol version number gets used by block producing nodes as part of the system for agreeing on and synchronising protocol updates.You just need to be aware of the latest version supported by the network. You dont need to change anything here.
+This protocol version number gets used by block producing nodes as part of the system for agreeing on and synchronising protocol updates.You just need to be aware of the latest version supported by the network. You don't need to change anything here.
 
 	  "ApplicationName": "cardano-sl",
 	  "ApplicationVersion": 0,
@@ -174,15 +174,15 @@ This protocol version number gets used by block producing nodes as part of the s
 
 ### 3 Tracing
 
-`Tracers` tell your node what information you are interested in when logging. Like switches that you can turn ON or OFF according the type and quantity of information that you are interesetd in. This provides fairly coarse grained control, but it is relatively efficient at filtering out unwanted trace output.
+`Tracers` tell your node what information you are interested in when logging. Like switches that you can turn ON or OFF according the type and quantity of information that you are interested in. This provides fairly coarse grained control, but it is relatively efficient at filtering out unwanted trace output.
 
 The node can run in either the `SimpleView` or `LiveView`. The `SimpleView` just uses standard output, optionally with log output. The `LiveView` is a text console with a live view of various node metrics.
 
-`TurnOnLogging`: Enbles or disables logging overall.
+`TurnOnLogging`: Enables or disables logging overall.
 
 `TurnOnLogMetrics`: Enable the collection of various OS metrics such as memory and CPU use. These metrics can be directed to the logs or monitoring backends.
 
-`setupBackends`, `defaultBackends`, `hasEKG`and `hasPrometheus`: The system supports a number of backends for logging and monitoring. This settings list the the backends available to use in the configuration. The logging backend is called `Katip`.
+`setupBackends`, `defaultBackends`, `hasEKG`and `hasPrometheus`: The system supports a number of backends for logging and monitoring. This settings lists the backends available to use in the configuration. The logging backend is called `Katip`.
 Also enable the EKG backend if you want to use the EKG or Prometheus monitoring interfaces.
 
 `setupScribes` and `defaultScribes`: For the Katip logging backend we must set up outputs (called scribes) The available types of scribe are:

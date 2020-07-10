@@ -1,7 +1,7 @@
 # Release Checklist
 
 ## Preparing the release
-- [ ] Make sure `cardano-wallet` points to correct revisions of dependent low-level libs (verify on target repositories if [stack.yaml](https://github.com/input-output-hk/cardano-wallet/blob/master/stack.yaml#L34-L42) points to appopriate revisions for `persistent`, `cardano-addresses`...). Also verify that the stack resolver corresponds to the `cardano-node` version.
+- [ ] Make sure `cardano-wallet` points to correct revisions of dependent low-level libs (verify on target repositories if [stack.yaml](https://github.com/input-output-hk/cardano-wallet/blob/master/stack.yaml#L34-L42) points to appropriate revisions for `persistent`, `cardano-addresses`...). Also verify that the stack resolver corresponds to the `cardano-node` version.
 
 - [ ] Fetch the tip of `master`:
 
