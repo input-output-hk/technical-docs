@@ -3,7 +3,7 @@ Get genesis, config and topology files; start the node
 
 Starting the node and connecting it to the testnet requires 3 configuration files:
 
-* ff-topology,json
+* shelley_testnet-topology.json
 * shelley_testnet-genesis.json
 * shelley_testnet-config.json
 
