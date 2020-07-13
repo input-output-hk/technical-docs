@@ -38,7 +38,7 @@ This mechanism also ensures that available rewards are predictable and do not va
 
 **Funding the Treasury**
 
-The goal of Cardano’s Treasury is the provision of funds to develop Cardano activities through a voting process. This necessitates a process whereby funds are regularly sent to the Treasury to ensure that funds are always available.
+The Treasury's goal is the provision of funds to develop Cardano activities through a voting process. This necessitates a process whereby funds are regularly sent to the Treasury to ensure that funds are always available.
 
 ### Policy Rationale for the ρ and τ values
 
