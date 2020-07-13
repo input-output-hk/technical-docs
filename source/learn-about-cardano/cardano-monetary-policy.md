@@ -10,7 +10,7 @@ Maintaining, developing, and improving a blockchain project requires ongoing mon
 
 The principles of decentralization and fairness drive Cardano's development. Cardano wants to offer equal opportunities to anyone who wishes to become part of the network by running a stake pool. But the very freedom to participate opens up the possibility of unfair advantage posed by larger stake pool operators. This presents the challenge of maintaining the integrity of the chain while incentivizing people to create pools and support the chain.
 
-### Incentives mechanism
+### Incentives Mechanism
 
 Cardano's monetary expansion relies on a long-term commitment by stake pool operators to provide ongoing support for the chain. This commitment requires a solid and stable incentivization mechanism for the operators, so this mechanism must ensure that the incentive system does not significantly change in time in a way that might adversely affect the operators’ income.
 
@@ -36,17 +36,17 @@ This system is designed to ensure that the portion of rewards taken from the res
 
 This mechanism also ensures that available rewards are predictable and do not vary dramatically. Instead, rewards change gradually. The fixed percentage taken from remaining reserves every epoch guarantees a smooth exponential decline.
 
-*** Funding the Treasury ***
+**Funding the Treasury**
 
 The goal of Cardano’s Treasury is the provision of funds to develop Cardano activities through a voting process. This necessitates a process whereby funds are regularly sent to the Treasury to ensure that funds are always available.
 
-### Policy rationale for the ρ and τ values
+### Policy Rationale for the ρ and τ values
 
 A lot of thought was put into determining what the values for ρ (fixed percentage) and τ (funds going into the Treasury) should be. 
 
 **Calculating ρ**
 
-While searching for the answer of what ρ should be, the team faced a quandary: A higher value would mean higher rewards for everybody initially, and the treasury would fill faster. But higher values of ρ would also mean that the reserves would deplete faster. Paying high rewards and incentivizing early adopters is a crucial consideration, but so is to offer a long term perspective for all stakeholders. Therefore, the solution to this quandary requires a tradeoff between these two issues.
+While searching for the answer of what ρ should be, the team faced a quandary: A higher value would mean higher rewards for everybody initially, and the Treasury would fill faster. But higher values of ρ would also mean that the reserves would deplete faster. Paying high rewards and incentivizing early adopters is a crucial consideration, but so is to offer a long term perspective for all stakeholders. Therefore, the solution to this quandary requires a tradeoff between these two issues.
 
 Adopting an exponential decay approach to prevent Cardano’s reserve from running out makes sense in this situation.
 
@@ -54,4 +54,4 @@ Calculating the 'reserve half life' (that is, the time that it takes for half of
 
 **Choosing τ**
 
-The right value for τ (the percentage of rewards automatically going to the treasury every epoch) was equally challenging. Following discussions, deliberations, and projections, the value chosen was 5%, which means that, initially, 5% of the virtual pot will be directed to the Treasury every epoch. This means that at least 380,000,000 ada will be sent from the reserves to the treasury over five years. In practice though, the real amount will be significantly higher because ada that is not being delegated will produce unclaimed awards, which will be routed to the Treasury. This will boost the amount to around 1,900,000,000 ada every epoch.
+The right value for τ (the percentage of rewards automatically going to the Treasury every epoch) was equally challenging. Following discussions, deliberations, and projections, the value chosen was 5%, which means that, initially, 5% of the virtual pot will be directed to the Treasury every epoch. This means that at least 380,000,000 ada will be sent from the reserves to the Treasury over five years. In practice though, the real amount will be significantly higher because ada that is not being delegated will produce unclaimed awards, which will be routed to the Treasury. This will boost the amount to around 1,900,000,000 ada every epoch.
