@@ -16,14 +16,14 @@ Cardano's monetary expansion relies on a long-term commitment by stake pool oper
 
 Cardano's incentive system for stake pool operators is designed to balance k fully saturated pools (where k is the number of desired pools), so this equilibrium means that rewards will be optimal for everybody when all stake is delegated uniformly to the k most attractive pools.
 
-#### Monetary Policy
+## Monetary Policy
 
 Cardano's monetary policy addresses two issues: 
 
 -   The necessity to offer rewards for people who participate in the network
 -   Funding the Treasury
 
-*** Rewards ***
+**Rewards**
 
 The expansion and future improvement of the Cardano blockchain will be greatly influenced by its community, who need to be incentivized through rewards to participate in Cardano’s development.
 
@@ -44,7 +44,7 @@ The goal of Cardano’s Treasury is the provision of funds to develop Cardano ac
 
 A lot of thought was put into determining what the values for ρ (fixed percentage) and τ (funds going into the Treasury) should be. 
 
-*** Calculating ρ ***
+**Calculating ρ**
 
 While searching for the answer of what ρ should be, the team faced a quandary: A higher value would mean higher rewards for everybody initially, and the treasury would fill faster. But higher values of ρ would also mean that the reserves would deplete faster. Paying high rewards and incentivizing early adopters is a crucial consideration, but so is to offer a long term perspective for all stakeholders. Therefore, the solution to this quandary requires a tradeoff between these two issues.
 
@@ -52,6 +52,6 @@ Adopting an exponential decay approach to prevent Cardano’s reserve from runni
 
 Calculating the 'reserve half life' (that is, the time that it takes for half of the reserve to be used up) visualizes the impact of choosing a specific value of ρ over another. This was the subject of much discussion, and eventually, the value assigned was 0.22%. The reason why is that mathematical projections showed that a ρ (the fixed percentage of ada going into the virtual pot every epoch) value of 0.22% would mean a reserve half-life of four to five years. In simple terms, just half of the remaining reserve would be used every four to five years.
 
-*** Choosing τ***
+**Choosing τ**
 
 The right value for τ (the percentage of rewards automatically going to the treasury every epoch) was equally challenging. Following discussions, deliberations, and projections, the value chosen was 5%, which means that, initially, 5% of the virtual pot will be directed to the Treasury every epoch. This means that at least 380,000,000 ada will be sent from the reserves to the treasury over five years. In practice though, the real amount will be significantly higher because ada that is not being delegated will produce unclaimed awards, which will be routed to the Treasury. This will boost the amount to around 1,900,000,000 ada every epoch.
