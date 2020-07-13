@@ -46,7 +46,7 @@ A lot of thought was put into determining what the values for ρ (fixed percenta
 
 **Calculating ρ**
 
-While searching for the answer of what ρ should be, the team faced a quandary: A higher value would mean higher rewards for everybody initially, and the Treasury would fill faster. But higher values of ρ would also mean that the reserves would deplete faster. Paying high rewards and incentivizing early adopters is a crucial consideration, but so is to offer a long term perspective for all stakeholders. Therefore, the solution to this quandary requires a tradeoff between these two issues.
+While searching for the right ρ value, the team faced a quandary: A higher value would mean higher rewards for everybody initially, and the Treasury would fill faster. But higher values of ρ would also mean that the reserves would deplete faster. Paying high rewards and incentivizing early adopters is a crucial consideration, but so is to offer a long term perspective for all stakeholders. Therefore, the solution to this quandary requires a tradeoff between these two issues.
 
 Adopting an exponential decay approach to prevent Cardano’s reserve from running out makes sense in this situation.
 
