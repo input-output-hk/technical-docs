@@ -7,7 +7,7 @@ Starting the node and connecting it to the testnet requires 3 configuration file
 * shelley_testnet-genesis.json
 * shelley_testnet-config.json
 
-Let us create a new directory inside `cardano-node`to store the configuration files that we need no start the node.
+Let us create a new directory inside `cardano-node`to store the configuration files that we need to start the node.
 
     mkdir cardano-node/relay
     cd cardano-node/relay
